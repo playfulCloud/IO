@@ -18,8 +18,9 @@ UKB
 0. UKB może rozpocząć, prowadzić i zakończyć chat z chatbotem w celu uzyskania pomocy i/lub oferty banku.
 
 ### Wymagania niefunkcjonalne
-0. Dostęp do konta UKB wymaga autoryzacji przez podanie danych dostępowych: loginu i hasła.
+0. Dostęp do konta UKB wymaga autoryzacji przez podanie danych dostępowych: loginu, hasła i kodu autoryzacji dwustopniowej (2FA).
 0. System obsługuje po stronie użytkownika język polski m.in., generując komunikaty o błędach czy udostępniając interfejs użytkownika w tym języku.
 0. Przelew między UKB jest możliwy tylko pod warunkiem posiadania wystarczających środków na koncie.
 0. Przelew do banku, w którym waluta jest inna niż PLN jest możliwy wyłącznie, kiedy UKB ma włączoną opcję przewalutowania.
+0. 
 

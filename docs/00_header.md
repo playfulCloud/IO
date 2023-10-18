@@ -2,7 +2,6 @@
 title: "Inżynieria oprogramowania - Projekt"
 author: "Igor Sosnowicz, Jakub Ptaszkowski, Łukasz Mędrek"
 header-includes:
-  - \usepackage{polski}
   - \usepackage[utf8]{inputenc}
   - \usepackage{graphicx}
 

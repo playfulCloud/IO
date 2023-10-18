@@ -2,7 +2,12 @@
 
 UKB - Użytkownik konta bankowego - klient banku posiadający w nim konto.
 
-![Diagram wymagań](./docs/requirements_diagram.png){width=100%}
+\begin{figure}[hbtp]
+    \makebox[\textwidth][c]{
+        \includegraphics[width=\paperwidth]{./docs/requirements_diagram.png}
+    }
+    \caption{Diagram wymagań}
+\end{figure}
 
 ### Wymagania funkcjonalne
 

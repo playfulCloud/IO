@@ -1,8 +1,13 @@
 # Inżynieria Oprogramowania - Projekt
+
 Temat: Program obsługujący konto bankowe
+
 ## Słowny opis wymagań
+
 UKB
+
 ### Wymagania funkcjonalne
+
 0. Potencjalny klient banku może zarejestrować nowe konto bankowe.
 0. UKB ma wgląd do stanu swojego konta bankowego w PLN.
 0. UKB ma wgląd do przypisanych do konta i aktywnych lokat.
@@ -19,6 +24,7 @@ UKB
 0. UKB może rozpocząć, prowadzić i zakończyć chat z chatbotem w celu uzyskania pomocy i/lub oferty banku.
 
 ### Wymagania niefunkcjonalne
+
 0. Podczas rejestracji trzeba podać: imię, nazwisko, PESEL, numer dokumentu tożsamości, adres do korespondencji, datę urodzenia.
 0. Dostęp do konta UKB wymaga autoryzacji przez podanie danych dostępowych: loginu, hasła i kodu autoryzacji dwustopniowej (2FA).
 0. System obsługuje po stronie użytkownika język polski m.in., generując komunikaty o błędach czy udostępniając interfejs użytkownika w tym języku.

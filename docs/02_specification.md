@@ -1,7 +1,3 @@
-# Inżynieria Oprogramowania - Projekt
-
-Temat: Program obsługujący konto bankowe
-
 ## Słowny opis wymagań
 
 UKB

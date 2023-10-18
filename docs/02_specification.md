@@ -2,6 +2,8 @@
 
 UKB - Użytkownik konta bankowego - klient banku posiadający w nim konto.
 
+![Diagram wymagań](./docs/requirements_diagram.png){width=100%}
+
 ### Wymagania funkcjonalne
 
 0. Potencjalny klient banku może zarejestrować nowe konto bankowe.

@@ -1,6 +1,6 @@
 ## Słowny opis wymagań
 
-UKB
+UKB - Użytkownik konta bankowego - klient banku posiadający w nim konto.
 
 ### Wymagania funkcjonalne
 

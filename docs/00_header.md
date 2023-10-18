@@ -1,6 +1,6 @@
 ---
-title: "Some title"
-author: "Some author"
+title: "Inżynieria oprogramowania - Projekt"
+author: "Igor Sosnowicz, Jakub Ptaszkowski, Łukasz Mędrek"
 header-includes:
   - \usepackage{polski}
   - \usepackage[utf8]{inputenc}
@@ -13,4 +13,3 @@ output:
 # Inżynieria Oprogramowania - Projekt
 
 Temat: Program obsługujący konto bankowe
-

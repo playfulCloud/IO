@@ -30,7 +30,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Compile sprawko
-        run: pandoc docs/specification.md -o sprawko.pdf
+        run: |
+          for f in docs/*.md; do
+            cat "${f}"
+            echo
+          done | pandoc -o sprawko.pdf
 
       - name: Archive project artifacts
         uses: actions/upload-artifact@v3

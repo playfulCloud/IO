@@ -110,7 +110,7 @@
 
     Cel: UKB przelewa określoną ilość środków swojego konta na konto adresata
 
-    Założenia wejściowe: PU logowanie został wykonany.
+    Założenia wejściowe: PU logowanie został wykonany, lub PU wykonania przelewu cyklicznego jest wykonywany.
 
     Założenia wyjściowe: Przelew został zlecony
 
@@ -184,13 +184,69 @@
 
     Założenia wejściowe: PU logowanie został wykonany.
 
-    Założenia wyjściowe: Przelew został zlecony
-
-    LSB - lokalny system bankowy - ten system bankowy.
+    Założenia wyjściowe: Przelew cykliczny został zapisany.
 
     Przebieg:
 
-    0. Kwota przelewu na koncie UKB zlecającego przelew jest zamrażana.
-    0. Zamrożona kwota przelewu zostaje dodana do konta UKB będącego adresatem przelewu.
-    0. Zamrożona kwota środków zostaje usunięta z konta UKB zlecającego przelew.
-    0. Zamrożona kwota środków zostaje odmrożona z konta UKB będącego adresatem przelewu.
+    0. Przyjęcie od UKB danych z formularza zlecenia przelewu cyklicznego.
+    0. Przesłanie danych do systemu bazy danych.
+
+
+0. Przypadek użycia wykonania przelewu cyklicznego
+
+    Cel: System informatyczny zleca wykonania przelewów na podstawie zapisanych 
+    informacji podanych przez przypadek użycia przelewu cyklicznego.
+
+    Założenia wejściowe: Przypadek jest wykonywany o północy każdego dnia roboczego.
+
+    Założenia wyjściowe: Przelew został zlecony
+
+    Przebieg:
+
+    0. System bazy danych jest odpytany o zapisane zlecenia przelewów cyklicznych.
+    0. Dla każdego zlecenia, wykonaj PU wykonania przelewu.
+    0. Jeśli PU wykonania przelewu nie został wykonany pomyślnie, prześlij błąd UKB który zlecił zlecenie i usuń zlecenie.
+
+
+0. Przypadek użycia wyświetlenia zleceń cyklicznych
+
+    Cel: UKB dowiaduje się o swoich 
+    informacji podanych przez przypadek użycia przelewu cyklicznego.
+
+    Założenia wejściowe: PU logowanie zostało wykonane.
+
+    Założenia wyjściowe: UKB dowiaduje się o swoich zleceniach cyklicznych.
+
+    Przebieg:
+
+    0. System bazy danych jest odpytany o zlecenia cykliczny przypisane do identyfikatora UKB.
+    0. Zlecenia cykliczne sią wyświetlane UKB
+
+
+0. Przypadek użycia modyikowanie zlecenia cyklicznego
+
+    Cel: UKB dowiaduje się o swoich 
+    informacji podanych przez przypadek użycia przelewu cyklicznego.
+
+    Założenia wejściowe: PU logowanie zostało wykonane.
+
+    Założenia wyjściowe: UKB dowiaduje się o swoich zleceniach cyklicznych.
+
+    Przebieg:
+
+    0. Przyjęcie od UKB danych z formularza modyfikacji przelewu cyklicznego.
+    0. Przesłanie danych do systemu bazy danych.
+
+
+0. Przypadek użycia usuwanie zlecenia cyklicznego
+
+    Cel: UKB usuwa zlecone przez siebie zlecenie cykliczne
+
+    Założenia wejściowe: PU logowanie zostało wykonane.
+
+    Założenia wyjściowe: Zlecenie cykliczne zostało usunięte.
+
+    Przebieg:
+
+    0. Przyjęcie od UKB danych z formularza usunięcia przelewu cyklicznego.
+    0. Przesłanie informacji o usunięciu zlecenia do systemu bazy danych.

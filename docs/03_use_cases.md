@@ -1,6 +1,6 @@
 ## Przypadki użycia
 
-0. Przypadek użycia Rejestracja
+0. Rejestracja
 
     Cel: Utworzenie konta przyszłemu klientowi banku.
 
@@ -15,16 +15,16 @@
     0. Przyjęcie od użytkownika danych imię, nazwisko, PESEL, numer dokumentu tożsamości, adres do korespondencji, datę urodzenia.
     0. Sprawdzenie, czy wprowadzone dane są zgodne z odpowiadającym im formatom.
     0. Jeśli dane są nie poprawne, wyświetlany jest komunikat o błędzie i proces rejestracyjny jest przerywany.
-    0. Wygenerowanie i wyświetlanie loginu i hasła użytkownikowi.
-    0. Wyświetlenie danych potrzebnych do autoryzacji dwuetapowej (2FA).
-    0. Utworzenie konta na podstawie uzyskanych danych.
+    0. Wygenerowanie i wyświetlanie loginu oraz hasła użytkownikowi.
+    0. Wygenerowanie i wyświetlenie danych potrzebnych do autoryzacji dwuetapowej (2FA).
+    0. Utworzenie konta na podstawie uzyskanych danych, zapisując zmiany w systemie bazy danych.
 
 
-0. Przypadek użycia logowanie
+0. Logowanie
 
     Cel: Autoryzacja użytkownika.
 
-    Założenia wejściowe: PU rejestracja został wykonany.
+    Założenia wejściowe: PU Rejestracja został wykonany.
 
     Założenia wyjściowe: Użytkownik zostanie zalogowany.
 
@@ -33,17 +33,17 @@
     0. Przyjęcie od użytkownika loginu, hasła i kodu autoryzacji dwustopniowej (2FA).
     0. Sprawdzenie, czy wprowadzone dane są zgodne z odpowiadającym im formatom.
     0. Jeśli dane są nie poprawne, wyświetlany jest komunikat o błędzie i proces logowania jest przerywany.
-    0. Sprawdzenie, czy konto z podanymi danymi do logowania istnieje.
+    0. Sprawdzenie, czy konto z podanymi danymi do logowania istnieje w systemie bazy danych.
     0. Jeśli konto nie istnieje, wyświetlany jest komunikat o błędzie i proces logowania jest przerywany.
     0. Użytkownik zostaje zalogowany.
 
 
 
-0. Przypadek użycia wgląd do stanu konta.
+0. Wgląd do stanu konta.
 
     Cel: Użytkownik ma wgląd do stanu swojego konta.
 
-    Założenia wejściowe: PU logowanie został wykonany.
+    Założenia wejściowe: PU Logowanie został wykonany.
 
     Założenia wyjściowe: Wyświetlenie stanu konta.
 
@@ -51,14 +51,15 @@
 
     0. Zgodnie z identyfikatorem użytkownika, odpytywany jest system bazy
     danych o stan konta.
+    0. Dane o stanie konta są wyświetlane UKB.
 
 
 
-0. Przypadek użycia wgląd do historii wpływów i wypływów.
+0. Wgląd do historii wpływów i wypływów.
 
     Cel: Użytkownik ma wgląd do historii transakcyjnych.
 
-    Założenia wejściowe: PU logowanie został wykonany.
+    Założenia wejściowe: PU Logowanie został wykonany.
 
     Założenia wyjściowe: Wyświetlenie stanu konta.
 
@@ -66,9 +67,10 @@
 
     0. Zgodnie z identyfikatorem użytkownika, odpytywany jest system bazy
     danych o stan konta.
+    0. Dane o historii wpływów i wypływów są wyświetlane UKB.
 
 
-0. Przypadek użycia zamykania konta
+0. Zamykania konta
 
     Cel: Usunięcie niechcianego przez UKB konta które posiada.
 
@@ -89,48 +91,47 @@
 
 
 
-0. Przypadek użycia zmiany stanu automatycznego przewalutowania
+0. Zmiana ustawienia przewalutowania
 
-    Cel: UKB włącza automatyczne przewalutowania, bądź je wyłącza
+    Cel: UKB włącza przewalutowanie, bądź je wyłącza.
 
-    Założenia wejściowe: PU logowanie został wykonany.
+    Założenia wejściowe: PU Logowanie został wykonany.
 
     Założenia wyjściowe: Nastąpiła zmiana stanu opcji automatycznego przewalutowania.
 
     Przebieg:
 
-    0. Przyjęcie od UKB danych z formularza automatycznego przewalutowania.
+    0. Przyjęcie od UKB danych z formularza przewalutowania.
     0. Jeśli dane są nie poprawne, wyświetlany jest komunikat o błędzie i proces zmiany przewalutowania jest przerywany.
-    0. Zgodnie z identyfikatorem użytkownika, wysyłane jest polecenie do systemu bazy danych o zmianę 
-    0. Wyświetlony zostanie komunikat o pomyślnym zmienieniu stanu automatycznego przewalutowania.
+    0. Zgodnie z identyfikatorem użytkownika, wysyłane jest polecenie do systemu bazy danych o zmianę.
+    0. Wyświetlony zostanie komunikat o pomyślnej zmianie stanu ustawienia przewalutowania.
 
 
 
-0. Przypadek użycia zlecenia przelewu 
+0. Zlecenie przelewu
 
-    Cel: UKB przelewa określoną ilość środków swojego konta na konto adresata
+    Cel: UKB przelewa określoną ilość środków ze swojego konta na konto adresata.
 
-    Założenia wejściowe: PU logowanie został wykonany, lub PU wykonania przelewu cyklicznego jest wykonywany.
+    Założenia wejściowe: PU Logowanie został wykonany lub nadszedł czas aktywacji PU Wykonania przelewu cyklicznego.
 
-    Założenia wyjściowe: Przelew został zlecony
+    Założenia wyjściowe: Przelew został zlecony.
 
     Przebieg:
 
     0. Przyjęcie od UKB danych z formularza zlecenia przelewu.
     0. Jeśli kwota przelewu jest wyższa niż stan konta UKB zlecającego przelew, wyświetlany jest
     komunikat o błędzie i proces zlecania przelewu jest przerywany.
-    0. Jeśli adresat przelewu jest w zewnętrznym banku, wykonywany jest przypadek użycia zlecenia
+    0. Jeśli adresat przelewu jest w zewnętrznym banku, wykonywany jest PU Zlecenie
     przelewu do zewnętrznego systemu bankowego.
     0. Jeśli adresat przelewu nie jest w zewnętrznym banku, wykonywany jest przypadek użycia zlecenia
-    przelewu w obrębie tego samego systemu bankowego
-    0. Sprawdzone jest czy wykonana procedura zwróciła błąd.
+    przelewu w obrębie tego samego systemu bankowego.
     0. Jeśli wykonana procedura zwróciła błąd, wyświetlany jest błąd i przerywana jest procedura 
     zlecania przelewu.
 
 
 
 
-0. Przypadek użycia zlecenia przelewu do zewnętrznego systemu bankowego
+0. Zlecenie przelewu do zewnętrznego systemu bankowego
 
     Cel: UKB przelewa określoną ilość środków swojego konta na konto adresata
 
@@ -138,8 +139,10 @@
 
     Założenia wyjściowe: Przelew został zlecony
 
-    OSB - obcy system bankowy - system bankowy działający niezależnie od tego systemu bankowego.
-    LSB - lokalny system bankowy - ten system bankowy.
+    Legenda:
+   
+    - OSB - obcy system bankowy - system bankowy działający niezależnie od tego systemu bankowego.
+    - LSB - lokalny system bankowy - ten system bankowy.
 
     Przebieg:
 
@@ -158,7 +161,7 @@
 
 
 
-0. Przypadek użycia zlecenia przelewu w obrębie tego samego systemu bankowego.
+0. Zlecenie przelewu w obrębie tego samego systemu bankowego.
 
     Cel: UKB przelewa określoną ilość środków swojego konta na konto adresata
 
@@ -175,9 +178,21 @@
     0. Zamrożona kwota środków zostaje usunięta z konta UKB zlecającego przelew.
     0. Zamrożona kwota środków zostaje odmrożona z konta UKB będącego adresatem przelewu.
 
+0. Zarządzanie przelewami cyklicznymi
 
+    Cel: UKB ma możliwość zarządzania przelewami cyklicznymi na swoim koncie bankowym.
 
-0. Przypadek użycia zlecenia przelewu cyklicznego
+    Założenia wejściowe: PU Logowanie został wykonany.
+
+    Założenia wyjściowe: Wykonanie wybranego przez UKB przypadku użycia.
+
+    Przebieg:
+
+    0. UKB wybiera jedną z opcji zarządzania swoimi przelewami cyklicznymi.
+    0. Realizowany jest odpowiadający wybranej opcji przypadek użycia z następujących: PU Zlecenie
+    przelewu cyklicznego, PU Modyfikacja przelewu cyklicznego, PU Usunięcie przelewu cyklicznego.
+
+0. Zlecenie przelewu cyklicznego
 
     Cel: UKB przelewa określoną ilość środków swojego konta na konto adresata określoną ilość razy,
     w określonych odstępach czasowych.
@@ -192,7 +207,7 @@
     0. Przesłanie danych do systemu bazy danych.
 
 
-0. Przypadek użycia wykonania przelewu cyklicznego
+0. Wykonanie przelewu cyklicznego
 
     Cel: System informatyczny zleca wykonania przelewów na podstawie zapisanych 
     informacji podanych przez przypadek użycia przelewu cyklicznego.
@@ -208,7 +223,7 @@
     0. Jeśli PU wykonania przelewu nie został wykonany pomyślnie, prześlij błąd UKB który zlecił zlecenie i usuń zlecenie.
 
 
-0. Przypadek użycia wyświetlenia zleceń cyklicznych
+0. Wyświetlenia zleceń cyklicznych
 
     Cel: UKB dowiaduje się o swoich 
     informacji podanych przez przypadek użycia przelewu cyklicznego.
@@ -223,12 +238,12 @@
     0. Zlecenia cykliczne sią wyświetlane UKB
 
 
-0. Przypadek użycia modyikowanie zlecenia cyklicznego
+0. Modyfikacja zlecenia cyklicznego
 
     Cel: UKB dowiaduje się o swoich 
     informacji podanych przez przypadek użycia przelewu cyklicznego.
 
-    Założenia wejściowe: PU logowanie zostało wykonane.
+    Założenia wejściowe: PU Logowanie zostało wykonane.
 
     Założenia wyjściowe: UKB dowiaduje się o swoich zleceniach cyklicznych.
 
@@ -238,7 +253,7 @@
     0. Przesłanie danych do systemu bazy danych.
 
 
-0. Przypadek użycia usuwanie zlecenia cyklicznego
+0. Usunięcie zlecenia cyklicznego
 
     Cel: UKB usuwa zlecone przez siebie zlecenie cykliczne
 

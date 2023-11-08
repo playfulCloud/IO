@@ -1,5 +1,12 @@
 ## Przypadki użycia
 
+\begin{figure}[hbtp]
+    \makebox[\textwidth][c]{
+        \includegraphics[width=\paperwidth]{./docs/usecase_diagram.png}
+    }
+    \caption{Diagram wymagań}
+\end{figure}
+
 0. Rejestracja
 
     Cel: Utworzenie konta przyszłemu klientowi banku.
@@ -265,3 +272,17 @@
 
     0. Przyjęcie od UKB danych z formularza usunięcia przelewu cyklicznego.
     0. Przesłanie informacji o usunięciu zlecenia do systemu bazy danych.
+
+0. Komunikacja z chatbotem
+
+    Cel: UKB nawiązuje komunikację z chatbotem
+
+    Założenia wejściowe: PU logowanie zostało wykonane.
+
+    Założenia wyjściowe: Komunikaca z chatbotem została nawiązana
+
+    Przebieg:
+
+    0. Indentyfikator użytkownika zostaje przesłany do systemu chatbota.
+    0. Tworzony jest kanał tekstowy umożliwający komunikację między chatbotem a użytkownikiem.
+    0. Użytkownik jest przekierowywany do kanału tekstowego.

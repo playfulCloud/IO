@@ -1,5 +1,12 @@
 ## Przypadki użycia
 
+\begin{figure}[hbtp]
+    \makebox[\textwidth][c]{
+        \includegraphics[width=\paperwidth]{./docs/usecase_diagram.png}
+    }
+    \caption{Diagram wymagań}
+\end{figure}
+
 0. Rejestracja
 
     Cel: Utworzenie konta przyszłemu klientowi banku.

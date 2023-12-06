@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile name="Konto_Bankowe_profile" xmi:id=".6mDnNGGAqBwAQec_profile" xmi:version="2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<packageImport xmi:id=".6mDnNGGAqBwAQec_profile_UMLMetaModel">
+		<importedPackage href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0" xmi:type="uml:Model"/>
+	</packageImport>
+	<eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id=".6mDnNGGAqBwAQec_profile_definition">
+		<contents name="Konto_Bankowe_profile" nsPrefix="Konto_Bankowe_profile" nsURI="http:///schemas/Konto_Bankowe_profile/0" xmi:id=".6mDnNGGAqBwAQec_content" xmi:type="ecore:EPackage">
+			<eClassifiers name="requirement" xmi:id="q2mDnNGGAqBwAQnO_classifier" xmi:type="ecore:EClass">
+				<eAnnotations references="q2mDnNGGAqBwAQnO" source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="q2mDnNGGAqBwAQnO_annotation"/>
+				<eStructuralFeatures lowerBound="1" name="base_Requirement" ordered="false" xmi:id="q2mDnNGGAqBwAQnO_structuralFeature" xmi:type="ecore:EReference">
+					<eType href="http://www.eclipse.org/uml2/2.0.0/UML#//Requirement" xmi:type="ecore:EClass"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="Text" ordered="false" xmi:id="G2mDnNGGAqBwAQnQ_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="ID" ordered="false" xmi:id="m2mDnNGGAqBwAQnR_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="source" ordered="false" xmi:id="W2mDnNGGAqBwAQnS_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="kind" ordered="false" xmi:id="22mDnNGGAqBwAQnT_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="verifyMethod" ordered="false" xmi:id="O2mDnNGGAqBwAQnU_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="risk" ordered="false" xmi:id="u2mDnNGGAqBwAQnV_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+				<eStructuralFeatures lowerBound="1" name="status" ordered="false" xmi:id="e2mDnNGGAqBwAQnW_structuralFeature" xmi:type="ecore:EAttribute">
+					<eType href="http://www.eclipse.org/emf/2002/Ecore#//EString" xmi:type="ecore:EDataType"/>
+				</eStructuralFeatures>
+			</eClassifiers>
+			<eClassifiers name="trace" xmi:id="FosrnNGGAqBwAQ3w_classifier" xmi:type="ecore:EClass">
+				<eAnnotations references="FosrnNGGAqBwAQ3w" source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="FosrnNGGAqBwAQ3w_annotation"/>
+				<eStructuralFeatures lowerBound="1" name="base_RQTrace" ordered="false" xmi:id="FosrnNGGAqBwAQ3w_structuralFeature" xmi:type="ecore:EReference">
+					<eType href="http://www.eclipse.org/uml2/2.0.0/UML#//RQTrace" xmi:type="ecore:EClass"/>
+				</eStructuralFeatures>
+			</eClassifiers>
+			<eClassifiers name="derive" xmi:id="0hA7nNGGAqBwAQ8f_classifier" xmi:type="ecore:EClass">
+				<eAnnotations references="0hA7nNGGAqBwAQ8f" source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="0hA7nNGGAqBwAQ8f_annotation"/>
+				<eStructuralFeatures lowerBound="1" name="base_RequirementDerive" ordered="false" xmi:id="0hA7nNGGAqBwAQ8f_structuralFeature" xmi:type="ecore:EReference">
+					<eType href="http://www.eclipse.org/uml2/2.0.0/UML#//RequirementDerive" xmi:type="ecore:EClass"/>
+				</eStructuralFeatures>
+			</eClassifiers>
+		</contents>
+	</eAnnotations>
+	<packagedElement name="requirement" xmi:id="q2mDnNGGAqBwAQnO" xmi:type="uml:Stereotype">
+		<ownedAttribute association="q2mDnNGGAqBwAQnO_extension" name="base_Requirement" xmi:id="q2mDnNGGAqBwAQnO_to">
+			<type href="pathmap://UML_METAMODELS/UML.metamodel.uml#Requirement" xmi:type="uml:Class"/>
+		</ownedAttribute>
+		<ownedAttribute name="Text" xmi:id="G2mDnNGGAqBwAQnQ">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="3"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="ID" xmi:id="m2mDnNGGAqBwAQnR">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="0"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="source" xmi:id="W2mDnNGGAqBwAQnS">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="0"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="kind" xmi:id="22mDnNGGAqBwAQnT">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="2"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="verifyMethod" xmi:id="O2mDnNGGAqBwAQnU">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="2"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="risk" xmi:id="u2mDnNGGAqBwAQnV">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="2"/>
+			</xmi:Extension>
+		</ownedAttribute>
+		<ownedAttribute name="status" xmi:id="e2mDnNGGAqBwAQnW">
+			<type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+			<xmi:Extension extender="Visual Paradigm">
+				<type value="2"/>
+			</xmi:Extension>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement memberEnd="q2mDnNGGAqBwAQnO_from q2mDnNGGAqBwAQnO_to" name="Requirement_requirement" xmi:id="q2mDnNGGAqBwAQnO_extension" xmi:type="uml:Extension">
+		<ownedEnd aggregation="composite" association="q2mDnNGGAqBwAQnO_extension" type="q2mDnNGGAqBwAQnO" xmi:id="q2mDnNGGAqBwAQnO_from" xmi:type="uml:ExtensionEnd"/>
+	</packagedElement>
+	<packagedElement name="trace" xmi:id="FosrnNGGAqBwAQ3w" xmi:type="uml:Stereotype">
+		<ownedAttribute association="FosrnNGGAqBwAQ3w_extension" name="base_RQTrace" xmi:id="FosrnNGGAqBwAQ3w_to">
+			<type href="pathmap://UML_METAMODELS/UML.metamodel.uml#RQTrace" xmi:type="uml:Class"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement memberEnd="FosrnNGGAqBwAQ3w_from FosrnNGGAqBwAQ3w_to" name="RQTrace_trace" xmi:id="FosrnNGGAqBwAQ3w_extension" xmi:type="uml:Extension">
+		<ownedEnd aggregation="composite" association="FosrnNGGAqBwAQ3w_extension" type="FosrnNGGAqBwAQ3w" xmi:id="FosrnNGGAqBwAQ3w_from" xmi:type="uml:ExtensionEnd"/>
+	</packagedElement>
+	<packagedElement name="derive" xmi:id="0hA7nNGGAqBwAQ8f" xmi:type="uml:Stereotype">
+		<ownedAttribute association="0hA7nNGGAqBwAQ8f_extension" name="base_RequirementDerive" xmi:id="0hA7nNGGAqBwAQ8f_to">
+			<type href="pathmap://UML_METAMODELS/UML.metamodel.uml#RequirementDerive" xmi:type="uml:Class"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement memberEnd="0hA7nNGGAqBwAQ8f_from 0hA7nNGGAqBwAQ8f_to" name="RequirementDerive_derive" xmi:id="0hA7nNGGAqBwAQ8f_extension" xmi:type="uml:Extension">
+		<ownedEnd aggregation="composite" association="0hA7nNGGAqBwAQ8f_extension" type="0hA7nNGGAqBwAQ8f" xmi:id="0hA7nNGGAqBwAQ8f_from" xmi:type="uml:ExtensionEnd"/>
+	</packagedElement>
+</uml:Profile>

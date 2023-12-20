@@ -1,6 +1,6 @@
-package Controller;
+package mondryptaszeknasosnie.Controller;
 
-import Model.*;
+import mondryptaszeknasosnie.Model.*;
 
 public interface PaymentProcessor {
 

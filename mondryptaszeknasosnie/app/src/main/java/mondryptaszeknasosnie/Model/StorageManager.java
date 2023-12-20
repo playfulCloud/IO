@@ -1,4 +1,4 @@
-package Model;
+package mondryptaszeknasosnie.Model;
 
 public interface StorageManager<TYPE, PRIMARY_KEY> {
 

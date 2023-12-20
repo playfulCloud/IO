@@ -1,4 +1,4 @@
-package Controller;
+package mondryptaszeknasosnie.Controller;
 
 public class RecurrentPaymentValidator implements Validator {
 

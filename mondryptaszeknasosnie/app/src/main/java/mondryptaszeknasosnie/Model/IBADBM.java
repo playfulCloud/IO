@@ -1,4 +1,4 @@
-package Model;
+package mondryptaszeknasosnie.Model;
 
 public class IBADBM extends DBManager {
 

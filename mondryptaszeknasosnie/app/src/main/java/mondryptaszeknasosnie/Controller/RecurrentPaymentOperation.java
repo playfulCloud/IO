@@ -1,4 +1,4 @@
-package Controller;
+package mondryptaszeknasosnie.Controller;
 
 public enum RecurrentPaymentOperation {
 	Delete,

@@ -1,11 +1,12 @@
-package Controller;
+package mondryptaszeknasosnie.Controller;
 
-import Model.*;
+import mondryptaszeknasosnie.Model.*;
 
 public class Application {
 
-	private RecurrentPaymentDBManager recurrentPayments;
-	private PaymentProcessor paymentProcessor;
+	private RecurrentPaymentDBManager recurrentPayments = new RecurrentPaymentDBManager();
+	private InternalPaymentProcessor ipp = new InternalPaymentProcessor();
+	private ExternalPaymentProcessor epp = new ExternalPaymentProcessor();
 
 	/**
 	 * 
@@ -35,7 +36,7 @@ public class Application {
 	}
 
 	/**
-	 * 
+	 *  seks
 	 * @param operation
 	 */
 	public void manageRecurrentPayment(RecurrentPaymentOperation operation) {
@@ -44,8 +45,15 @@ public class Application {
 	}
 
 	public void executeRecurrentPayments() {
-		// TODO - implement Application.executeRecurrentPayments
-		throw new UnsupportedOperationException();
+		var payments = recurrentPayments.select();
+		for (var payment : payments) {
+			if (!payment.between(Date.now()) ) continue;
+
+			if (payment.template.reciever instanceof InternalBankAccount) 
+				ipp.pay(payment.template);
+			else if (payment.template.reciever instanceof ExternalPaymentProcessor) 
+				epp.pay(payment.template);
+		}
 	}
 
 	/**
@@ -65,14 +73,4 @@ public class Application {
 		// TODO - implement Application.login
 		throw new UnsupportedOperationException();
 	}
-
-	/**
-	 * 
-	 * @param operation
-	 */
-	public void manageRecurrentPayment(RecurrentPaymentOperation operation) {
-		// TODO - implement Application.manageRecurrentPayment
-		throw new UnsupportedOperationException();
-	}
-
 }

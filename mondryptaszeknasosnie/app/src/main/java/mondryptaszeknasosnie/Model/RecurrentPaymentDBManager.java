@@ -1,4 +1,4 @@
-package Model;
+package mondryptaszeknasosnie.Model;
 
 public class RecurrentPaymentDBManager extends DBManager {
 

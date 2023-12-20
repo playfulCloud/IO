@@ -1,4 +1,4 @@
-package Model;
+package mondryptaszeknasosnie.Model;
 
 public enum Currency {
 	PLN,

@@ -15,8 +15,7 @@ public class Application {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO - implement Application.main
-		throw new UnsupportedOperationException();
+		var app = new Application();
 	}
 
 	/**
@@ -57,8 +56,6 @@ public class Application {
 
 			recurentPayments.insert(((RecurrentPaymentFormUpdate)form).obj);
 		}
-		// TODO - implement Application.manageRecurrentPayment
-		throw new UnsupportedOperationException();
 	}
 
 	public void executeRecurrentPayments() {

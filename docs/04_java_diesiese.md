@@ -16,7 +16,7 @@
 
 \begin{figure}[hbtp]
     \makebox[\textwidth][c]{
-        \includegraphics[width=\paperwidth]{./docs/execute\_recurent.png}
+        \includegraphics[width=\paperwidth]{./docs/execute\_recurrent.png}
     }
     \caption{Diagram sekwencji - wykonywanie}
 \end{figure}

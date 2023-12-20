@@ -8,6 +8,8 @@ public class Application {
 	private InternalPaymentProcessor ipp = new InternalPaymentProcessor();
 	private ExternalPaymentProcessor epp = new ExternalPaymentProcessor();
 
+	private RecurentPaymentValidator validator = new RecurentPaymentValidator();
+
 	/**
 	 * 
 	 * @param args
@@ -39,7 +41,22 @@ public class Application {
 	 *  seks
 	 * @param operation
 	 */
-	public void manageRecurrentPayment(RecurrentPaymentOperation operation) {
+	public void manageRecurrentPayment(RecurrentPaymentOperation operation, form: Object) {
+		if (operation == RecurrentPaymentOperation.Update) {
+			if (!validator.validate(form)) return;
+
+			recurentPayments.update(((RecurrentPaymentFormUpdate)form).id, ((RecurrentPaymentFormUpdate)form).obj);
+		}
+		else if (operation == RecurrentPaymentOperation.Delete) {
+			if (!validator.validate(form)) return;
+
+			recurentPayments.delete(((RecurrentPaymentFormDelete)form).id);
+		}
+		else if (operation == RecurrentPaymentOperation.Insert) {
+			if (!validator.validate(form)) return;
+
+			recurentPayments.insert(((RecurrentPaymentFormUpdate)form).obj);
+		}
 		// TODO - implement Application.manageRecurrentPayment
 		throw new UnsupportedOperationException();
 	}

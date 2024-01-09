@@ -1,8 +1,10 @@
 *.pdf
-*.vpp_bak*
+*.vpp.lck
+*.vpp.bak*
 
 # Ignore Gradle project-specific cache directory
 .gradle
+*.java
 
 # Ignore Gradle build output directory
 build

@@ -1,0 +1,5 @@
+Zadanie 1.
+Napisz 2 testy akceptacyjne dla metod klasy fasady Application z wykorzystaniem FitNeese.
+
+Zadanie 2.
+Napisz 2 testy akceptacyjne dla metod, wykorzystujacych przetestowane wczesniej metody z klasy Application.

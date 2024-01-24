@@ -28,16 +28,16 @@ public class Application {
             registrationDataDBManager.insert(obj);
             return new BankResponse("Registration Completed", 200);
         }else{
-            return new BankResponse("Chuj ci w dupe - Data is invalid", 400);
+            return new BankResponse("Data is invalid", 400);
         }
     }
 
 
     public BankResponse login(UserData obj) {
         if (userDataValidator.validate(obj)) {
-            return new BankResponse("Login Completed", 200);
+            return new BankResponse("Login successful", 200);
         } else {
-            return new BankResponse("Login Completedn't", 400);
+            return new BankResponse("Login unsuccessful ", 400);
         }
     }
 
@@ -55,14 +55,14 @@ public class Application {
                 throw new RuntimeException("Error during updating");
             }
             recurrentPayments.delete(form.getId());
-            return new BankResponse("Succesfull delete",200);
+            return new BankResponse("Succesful deletion",200);
         }
         else if (operation == RecurrentPaymentOperation.Insert) {
             if (validator.validate(form)){
                 throw new RuntimeException("Error during updating");
             }
             recurrentPayments.insert(form.getRecurrentPayment());
-            return new BankResponse("Succesfull Insert",200);
+            return new BankResponse("Succesful Insertion",200);
         }
         throw new UnsupportedOperationException();
     }
@@ -70,19 +70,7 @@ public class Application {
     public void setValidator(RecurrentPaymentValidator validator) {
         this.validator = validator;
     }
-//
-//    public void executeRecurrentPayments() {
-//        var payments = recurrentPayments.select();
-//        for (var payment : payments) {
-//            if (!payment.between(Date.now()) ) continue;
-//
-//            if (payment.template.reciever instanceof InternalBankAccount)
-//                ipp.pay(payment.template);
-//            else if (payment.template.reciever instanceof ExternalPaymentProcessor)
-//                epp.pay(payment.template);
-//        }
-//    }
-//
+
 
 
 }

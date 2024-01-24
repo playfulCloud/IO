@@ -34,12 +34,12 @@ public class Application {
         }
     }
 
-    public boolean addPayment(String title, String date, int amount, int senderId, int receiverId, String currency) {
+    public boolean addPayment(String title, Date date, int amount, int senderId, int receiverId, String currency) {
         if (PaymentValidator.validate(title, date, amount, senderId, receiverId, currency)) {
 
             var payment = new Payment();
             payment.title = title;
-            payment.date = new Date(date);
+            payment.date = date;
             payment.amount = amount;
             payment.sender = new InternalBankAccount();
             payment.reciever = new InternalBankAccount();
@@ -54,6 +54,10 @@ public class Application {
         } else {
             return false;
         }
+    }
+
+    public int getPaymentsAmoint() {
+	    return 1234; // TODO, or not TODO
     }
 
     public BankResponse login(UserData obj) {

@@ -1,6 +1,8 @@
-|FrontPage.sut.TES_DWA||16:50:36 Wed, Jan 24, 2024|
+|FrontPage.sut.Test1||17:46:01 Wed, Jan 24, 2024|
+|FrontPage.sut.Bajaderka||17:40:30 Wed, Jan 24, 2024|
+|FrontPage.ApplicationAddPaymentTest||17:35:39 Wed, Jan 24, 2024|
+|FrontPage.sut.TES_DWA||17:15:26 Wed, Jan 24, 2024|
 |FrontPage.TestTest||16:43:03 Wed, Jan 24, 2024|
-|FrontPage.ApplicationAddPaymentTest||16:35:33 Wed, Jan 24, 2024|
 |FrontPage||11:22:15 Wed, Jan 24, 2024|
 |FrontPage.BankResponse||18:23:47 Wed, Jan 17, 2024|
 |FrontPage.TestManageRecurrentPayment||18:22:34 Wed, Jan 17, 2024|

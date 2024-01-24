@@ -38,7 +38,7 @@ public class RegistrationDataValidator implements Validator {
         return true;
     }
     public boolean checkPassword(String password){
-	    return password.length() >= 6 && password.length() =< 64;
+	    return password.length() >= 6 && password.length() <= 64;
         // return password.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).*$");
     }
 // TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać

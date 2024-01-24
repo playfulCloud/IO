@@ -1,3 +1,7 @@
+---
+Help: afeshuif jdisjfgdhvbhuijog fgdgcv io ij tkehvrjwq v
+Test
+---
 <test page>
 
 !define slim.port {6969}
@@ -13,6 +17,5 @@
 
 Dodawanie przelewu
 !|org.ptaszek.Controller.Fixture2                                                   |
-|title     |date      |amount    |senderId|receiverId|currency|addPayment()?|
-|Przelewik |2022-01-21|100       |1     |2       |PLN       |false    |             
-|Przelewik4|2022-03-10|500       |1     |1       |PLN       |false       |          
+|title     |date      |amount    |senderId|receiverId|currency|getPaymentsAmount()?|
+|Przelewik |2022-01-21|100       |1     |2       |PLN       | 1234   |             

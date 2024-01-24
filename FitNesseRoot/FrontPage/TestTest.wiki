@@ -2,15 +2,15 @@
 
 !define TEST_SYSTEM {slim}
 !path fitnesse-standalone.jars
-!path mondryptaszeknasosnie/target/classes
+#!path mondryptaszeknasosnie/target/classes
 !path mondryptaszeknasosnie/target/test-classes/
 
 
 !|import|
 |fixtures|
 
+
+Rejestracja
 !|org.ptaszek.Controller.Fixture|
-|a|a_add()?|
-|1|2|
-|1|2|
-|4|5|
+|name|surname|PESEL|IDNumber|mailAdress|birthDate|login|password|register()?|
+|chuj|kowalsk|00000|11111111|chuj@kow.l|2024-01-24|chuj|kowalski|200|

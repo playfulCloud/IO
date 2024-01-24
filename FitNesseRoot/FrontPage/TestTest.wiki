@@ -13,4 +13,6 @@
 Rejestracja
 !|org.ptaszek.Controller.Fixture|
 |name|surname|PESEL|IDNumber|mailAdress|birthDate|login|password|register()?|
-|chuj|kowalsk|00000|11111111|chuj@kow.l|2024-01-24|chuj|kowalski|200|
+|chuj|kowalsk|00000|11111111|chuj@kow.l|2024-01-24|chuj6969|kowalski|400|
+|chuj|kowalsk|01234567890|0123456789|chuj@kow.l|2024-01-24|chuj6969|kowalski|200|
+

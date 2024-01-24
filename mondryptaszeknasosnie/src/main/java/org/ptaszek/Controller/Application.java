@@ -27,7 +27,7 @@ public class Application {
             registrationDataDBManager.insert(obj);
             return new BankResponse("Registration Completed", 200);
         }else{
-            throw new UnsupportedOperationException();
+            return new BankResponse("Chuj ci w dupe - Data is invalid", 400);
         }
     }
 

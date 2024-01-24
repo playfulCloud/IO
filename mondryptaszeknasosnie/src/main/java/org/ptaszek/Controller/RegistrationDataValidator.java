@@ -23,36 +23,38 @@ public class RegistrationDataValidator implements Validator {
 
     @Override
     public boolean validate(UserData data) {
-        return false;
+        return true; // TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać
     }
-
+// TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać
     @Override
     public boolean checkLengthCondition(String data){
         return data.length() > 5 && data.length() < 50;
     }
-
+// TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać
     @Override
     public boolean checkNullCondition(String data){
         return data != null;
     }
-
+// TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać
     @Override
     public boolean validate(RecurrentPaymentForm form) {
-        return false;
+        return true;
     }
-
+// TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać
     public boolean checkPassword(String password){
-        return password.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).*$");
+	    return true;
+        // return password.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).*$");
     }
-
+// TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać
     public boolean checkEmailAdress(String email){
-        return email.matches("^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$");
+	    return true;
+        // return email.matches("^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$");
     }
-
+// TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać
     public boolean checkPesel(String pesel){
         return pesel.length() == 11;
     }
-
+// TODO: wypierdol to do współdzielonego miejsca, aby wszystkie walidatory mogły używać
     public boolean checkIDNumber(String id){
         return id.length() == 10;
     }

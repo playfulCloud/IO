@@ -1,0 +1,1964 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20231203</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameDoesNotMove</rootPath>
+  <result>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <runTimeInMillis>57</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.ScenarioLibrary"&gt;.FitNesse.SuiteAcceptanceTests.ScenarioLibrary&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;create page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td colspan="2"&gt;@content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$IT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="3"&gt;@page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td colspan="2"&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;nothing&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given test page&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td colspan="2"&gt;@page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given slim test page&lt;/td&gt;
+		&lt;td colspan="2"&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;!define TEST_SYSTEM {slim}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td colspan="2"&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;&amp;lt;a href="@target"&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$IT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="3"&gt;@source&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should have link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and it should have link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should have creating link to&lt;/td&gt;
+		&lt;td&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@target&amp;lt;a title="create page" href="@target?edit&amp;amp;nonExistent=true"&amp;gt;[?]&amp;lt;/a&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should have creating link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have creating link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should match&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should not contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+		&lt;td&gt;in line&lt;/td&gt;
+		&lt;td&gt;symbol&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;$@symbol=&lt;/td&gt;
+		&lt;td&gt;line number containing&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should match&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should match&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for page in debug mode&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&amp;amp;debug&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for suite&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?suite&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;its test results should contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;test results for page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test ressults for page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should match&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;widget&lt;/td&gt;
+		&lt;td&gt;wikiText&lt;/td&gt;
+		&lt;td&gt;should render&lt;/td&gt;
+		&lt;td&gt;htmlText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;create page&lt;/td&gt;
+		&lt;td&gt;WidgetPage&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td colspan="2"&gt;@wikiText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;WidgetPage&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;@htmlText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the line&lt;/td&gt;
+		&lt;td&gt;after&lt;/td&gt;
+		&lt;td&gt;should come after&lt;/td&gt;
+		&lt;td&gt;before&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;echo int&lt;/td&gt;
+		&lt;td&gt;$@before&lt;/td&gt;
+		&lt;td colspan="2"&gt;&amp;lt; $@after&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;pass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;show Symbol&lt;/td&gt;
+		&lt;td&gt;result&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+		&lt;td&gt;assertions pass,&lt;/td&gt;
+		&lt;td&gt;fail&lt;/td&gt;
+		&lt;td&gt;fail,&lt;/td&gt;
+		&lt;td&gt;ignore&lt;/td&gt;
+		&lt;td&gt;are ignored&lt;/td&gt;
+		&lt;td&gt;exception&lt;/td&gt;
+		&lt;td&gt;exceptions thrown&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="8"&gt;Assertions:&amp;lt;[^&amp;lt;]*@pass right, @fail wrong, @ignore ignored, @exception exceptions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;extract match;&lt;/td&gt;
+		&lt;td&gt;Assertions:&amp;lt;[^&amp;lt;]*exceptions&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+		&lt;td colspan="6"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and cell&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+		&lt;td&gt;has result&lt;/td&gt;
+		&lt;td&gt;result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;class="@result"&amp;gt;@text&amp;lt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;extract match;&lt;/td&gt;
+		&lt;td&gt;class="[^"]+"&amp;gt;@text&amp;lt;&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TestSTART=@@@START: Test specific content&lt;/span&gt;
+ &lt;br/&gt;&lt;span class="meta"&gt;variable defined: TestEND=@@@END: Test specific content&lt;/span&gt;
+ &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and TestSystem setup is&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;$CONTENT
+@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and setup content is&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;$CONTENT
+@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and test content is&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;$CONTENT @@@START: Test specific content@content@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td colspan="2"&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get HTML result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;Response Examiner.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;setType&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setPattern&lt;/td&gt;
+		&lt;td&gt;@@@START: Test specific content[^&amp;lt;]*(.*&amp;gt;)\s*@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;setGroup&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$HTML_Result=&lt;/td&gt;
+		&lt;td&gt;found&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get HTML input&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;Response Examiner.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;setType&lt;/td&gt;
+		&lt;td&gt;pageHtml&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setPattern&lt;/td&gt;
+		&lt;td&gt;@@@START: Test specific content[^&amp;lt;]*(.*&amp;gt;)\s*@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;setGroup&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;$HTML_Input=&lt;/td&gt;
+		&lt;td&gt;found&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td&gt;get value&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get collapsed executon log for page&lt;/td&gt;
+		&lt;td colspan="2"&gt;source&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?executionLog&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;is tested&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;is tested and HTML is extracted&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;is tested&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="4"&gt;get HTML result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="4"&gt;get HTML input&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SetUp"&gt;.FitNesse.SuiteAcceptanceTests.SetUp&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;SetUp&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3 id="0"&gt;A page may &lt;i&gt;not&lt;/i&gt; be renamed to a name with dots in it.&lt;/h3&gt;
+&lt;h3 id="1"&gt;Another way of saying this is that renaming a page does not change it's position.&lt;/h3&gt;
+&lt;br/&gt;First build the page to rename, and another page to try to move it beneath.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Page creator.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Page name.&lt;/td&gt;
+		&lt;td&gt;Page contents.&lt;/td&gt;
+		&lt;td&gt;valid?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;MyPage&lt;/td&gt;
+		&lt;td&gt;X&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;TargetPage&lt;/td&gt;
+		&lt;td&gt;X&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Then rename that page.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;Response Requester.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;uri&lt;/td&gt;
+		&lt;td&gt;status?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;MyPage?responder=renamePage&amp;newName=TargetPage.SomePage&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;400&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Make sure that we got an error message.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;&lt;span class="pass"&gt;Response Examiner.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;type&lt;/td&gt;
+		&lt;td&gt;pattern&lt;/td&gt;
+		&lt;td&gt;matches?&lt;/td&gt;
+		&lt;td&gt;wrapped html?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+		&lt;td&gt;Cannot rename&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;&lt;pre&gt;HTTP/1.1 400 Bad Request
+Content-Length: 1978
+Content-Type: text/html; charset=UTF-8
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+  &amp;lt;title&amp;gt;Error Occurred&amp;lt;/title&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+
+  &amp;lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/javascript/jquery-3.5.1.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body class="error"&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+     &amp;lt;a class="navbar-brand" href="/FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+
+   &amp;lt;/div&amp;gt;
+&amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+ &amp;lt;li&amp;gt;Error Occurred&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;article&amp;gt;
+ &amp;lt;center&amp;gt;Cannot rename &amp;amp;lt;a href="MyPage"&amp;amp;gt;MyPage&amp;amp;lt;/a&amp;amp;gt;
+ to TargetPage.SomePage. &amp;lt;/center&amp;gt;
+  &amp;lt;/article&amp;gt;
+
+
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;The renamed page should not exist.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;Response Requester.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;uri&lt;/td&gt;
+		&lt;td&gt;valid?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;TargetPage.SomePage?getPage&amp;amp;dontCreatePage&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;false&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;The old page should still exist.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Response Requester.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;uri&lt;/td&gt;
+		&lt;td&gt;valid?&lt;/td&gt;
+		&lt;td&gt;contents?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;MyPage&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;true&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="ignore"&gt;&lt;pre&gt;HTTP/1.1 200 OK
+Cache-Control: max-age=0
+Content-Length: 6627
+Content-Type: text/html; charset=UTF-8
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+  &amp;lt;title&amp;gt;MyPage&amp;lt;/title&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+
+  &amp;lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/javascript/jquery-3.5.1.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body class="wikiPage"&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+     &amp;lt;a class="navbar-brand" href="/FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+&amp;lt;ul class="nav navbar-nav"&amp;gt;
+        &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?edit" accesskey="e"&amp;gt;Edit&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+            &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?new"&amp;gt;Add&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+    &amp;lt;li id="tools" class="dropdown" aria-haspopup="true"&amp;gt;&amp;lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&amp;gt;Tools &amp;lt;b class="caret"&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/a&amp;gt;
+        &amp;lt;ul class="dropdown-menu"&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?properties" accesskey="p"&amp;gt;Properties&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?whereUsed" accesskey="w"&amp;gt;Where Used&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?versions" accesskey="v"&amp;gt;Versions&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=rename"&amp;gt;Rename&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=move"&amp;gt;Move&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=replace"&amp;gt;Replace&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?deletePage"&amp;gt;Delete&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li  class="divider"&amp;gt;&amp;lt;a href="/files" accesskey="f"&amp;gt;Files&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="?search" accesskey="s"&amp;gt;Search&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="/RecentChanges" accesskey=""&amp;gt;Recent Changes&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="MyPage?variables" accesskey="v"&amp;gt;Variables&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="/FitNesse.UserGuide" accesskey=""&amp;gt;User Guide&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;form class="navbar-form search" role="search" action="?search"&amp;gt;
+ &amp;lt;input type="hidden" name="responder" value="search" /&amp;gt;
+ &amp;lt;input type="hidden" name="searchScope" value="root" /&amp;gt;
+ &amp;lt;input type="text" id="searchString" name="searchString" class="form-control" placeholder="Search for page" /&amp;gt;
+ &amp;lt;input type="hidden" name="searchType" value="Search Titles" /&amp;gt;
+&amp;lt;/form&amp;gt;
+
+   &amp;lt;/div&amp;gt;
+&amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+ &amp;lt;li&amp;gt;MyPage&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;article&amp;gt;
+X
+
+
+&amp;lt;div id="-shortcut-keys" class="modal-dialog"&amp;gt;
+ &amp;lt;div&amp;gt;
+  &amp;lt;h4&amp;gt;Keyboard Shortcuts &amp;lt;kbd&amp;gt;?&amp;lt;/kbd&amp;gt;&amp;lt;/h4&amp;gt;
+  &amp;lt;div&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;General&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;t&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Test page or suite&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;e&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Edit page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;View page (after test)&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;a&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Add new page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Go To&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g u&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;User Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g q&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Quick Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g f&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Full Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g c&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Recent Changes&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Edit Mode&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;CTRL+s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Save page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;ESC&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Cancel edit&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Tools&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;p&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Properties&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;w&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Where used?&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Versions&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+h&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Page History&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;/&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Focus on search bar&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Open search page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;a href="javascript:history.back()" class="button"&amp;gt;Close&amp;lt;/a&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;script src="/files/fitnesse/javascript/mousetrap.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+
+&amp;lt;script type="text/javascript"&amp;gt;
+
+   Mousetrap.bind('v', function() { window.location.href ="MyPage"; });
+
+    Mousetrap.bind('e', function() { window.location.href ="MyPage?edit"; });
+    Mousetrap.bind('a', function() { window.location.href ="MyPage?new"; });
+    Mousetrap.bind('p', function() { window.location.href ="MyPage?properties"; });
+    Mousetrap.bind('w', function() { window.location.href ="MyPage?whereUsed"; });
+    Mousetrap.bind('s', function() { window.location.href ="MyPage?searchForm"; });
+    Mousetrap.bind('/', function() { 
+      document.getElementById('searchString').focus();
+      return false;  // stops the / character appearing in search box
+    });
+    Mousetrap.bind('g u', function() { window.location.href =".FitNesse.UserGuide"; });
+    Mousetrap.bind('g q', function() { window.open(".FitNesse.UserGuide.QuickReferenceGuide", "_blank"); });
+    Mousetrap.bind('g f', function() { window.open(".FitNesse.FullReferenceGuide", "_blank"); });
+    Mousetrap.bind('g c', function() { window.location.href ="RecentChanges"; });
+
+ Mousetrap.bind('?', function() { window.location.hash = "-shortcut-keys"; });
+
+&amp;lt;/script&amp;gt;  &amp;lt;/article&amp;gt;
+
+  &amp;lt;footer&amp;gt;
+  &amp;lt;/footer&amp;gt;
+
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown"&gt;.FitNesse.SuiteAcceptanceTests.TearDown&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;hr/&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;tear down&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>TestRenameDoesNotMove</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_39_0', instruction='import', path='fitnesse.fixtures'}</instruction>
+        <slimResult>pass(fitnesse.fixtures)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_39_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.fixtures</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_40_0', instruction='make', instanceName='decisionTable_40', className='SetUp', args=[]}</instruction>
+        <slimResult>pass(SetUp)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_40_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>SetUp</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_41_0', instruction='make', instanceName='decisionTable_41', className='PageCreator', args=[]}</instruction>
+        <slimResult>pass(Page creator.)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_41_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Page creator.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_41_4', instruction='call', instanceName='decisionTable_41', methodName='setPageName', args=[MyPage]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_41_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_41_5', instruction='call', instanceName='decisionTable_41', methodName='setPageContents', args=[X]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_41_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_41_7', instruction='call', instanceName='decisionTable_41', methodName='valid', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_41_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>true</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_41_9', instruction='call', instanceName='decisionTable_41', methodName='setPageName', args=[TargetPage]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_41_9</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_41_10', instruction='call', instanceName='decisionTable_41', methodName='setPageContents', args=[X]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_41_10</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_41_12', instruction='call', instanceName='decisionTable_41', methodName='valid', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_41_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>true</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_42_0', instruction='make', instanceName='decisionTable_42', className='ResponseRequester', args=[]}</instruction>
+        <slimResult>pass(Response Requester.)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_42_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Response Requester.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_42_4', instruction='call', instanceName='decisionTable_42', methodName='setUri', args=[MyPage?responder=renamePage&amp;newName=TargetPage.SomePage]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_42_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_42_6', instruction='call', instanceName='decisionTable_42', methodName='status', args=[]}</instruction>
+        <slimResult>pass(400)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_42_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>400</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_43_0', instruction='make', instanceName='decisionTable_43', className='ResponseExaminer', args=[]}</instruction>
+        <slimResult>pass(Response Examiner.)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_43_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Response Examiner.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_43_4', instruction='call', instanceName='decisionTable_43', methodName='setType', args=[contents]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_43_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_43_5', instruction='call', instanceName='decisionTable_43', methodName='setPattern', args=[Cannot rename]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_43_5</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_43_7', instruction='call', instanceName='decisionTable_43', methodName='matches', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_43_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>true</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_43_8', instruction='call', instanceName='decisionTable_43', methodName='wrappedHtml', args=[]}</instruction>
+        <slimResult>ignore(&lt;pre&gt;HTTP/1.1 400 Bad Request
+Content-Length: 1978
+Content-Type: text/html; charset=UTF-8
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+  &amp;lt;title&amp;gt;Error Occurred&amp;lt;/title&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+
+  &amp;lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/javascript/jquery-3.5.1.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body class="error"&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+     &amp;lt;a class="navbar-brand" href="/FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+
+   &amp;lt;/div&amp;gt;
+&amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+ &amp;lt;li&amp;gt;Error Occurred&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;article&amp;gt;
+ &amp;lt;center&amp;gt;Cannot rename &amp;amp;lt;a href="MyPage"&amp;amp;gt;MyPage&amp;amp;lt;/a&amp;amp;gt;
+ to TargetPage.SomePage. &amp;lt;/center&amp;gt;
+  &amp;lt;/article&amp;gt;
+
+
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;)</slimResult>
+        <expectation>
+          <status>ignore</status>
+          <instructionId>decisionTable_43_8</instructionId>
+          <col>3</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>&lt;pre&gt;HTTP/1.1 400 Bad Request
+Content-Length: 1978
+Content-Type: text/html; charset=UTF-8
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+  &amp;lt;title&amp;gt;Error Occurred&amp;lt;/title&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+
+  &amp;lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/javascript/jquery-3.5.1.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body class="error"&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+     &amp;lt;a class="navbar-brand" href="/FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+
+   &amp;lt;/div&amp;gt;
+&amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+ &amp;lt;li&amp;gt;Error Occurred&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;article&amp;gt;
+ &amp;lt;center&amp;gt;Cannot rename &amp;amp;lt;a href="MyPage"&amp;amp;gt;MyPage&amp;amp;lt;/a&amp;amp;gt;
+ to TargetPage.SomePage. &amp;lt;/center&amp;gt;
+  &amp;lt;/article&amp;gt;
+
+
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_44_0', instruction='make', instanceName='decisionTable_44', className='ResponseRequester', args=[]}</instruction>
+        <slimResult>pass(Response Requester.)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_44_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Response Requester.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_44_4', instruction='call', instanceName='decisionTable_44', methodName='setUri', args=[TargetPage.SomePage?getPage&amp;dontCreatePage]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_44_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_44_6', instruction='call', instanceName='decisionTable_44', methodName='valid', args=[]}</instruction>
+        <slimResult>pass(false)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_44_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>false</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_0', instruction='make', instanceName='decisionTable_45', className='ResponseRequester', args=[]}</instruction>
+        <slimResult>pass(Response Requester.)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Response Requester.</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_4', instruction='call', instanceName='decisionTable_45', methodName='setUri', args=[MyPage]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_4</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>VoidReturnExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_6', instruction='call', instanceName='decisionTable_45', methodName='valid', args=[]}</instruction>
+        <slimResult>pass(true)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_6</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>true</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_7', instruction='call', instanceName='decisionTable_45', methodName='contents', args=[]}</instruction>
+        <slimResult>ignore(&lt;pre&gt;HTTP/1.1 200 OK
+Cache-Control: max-age=0
+Content-Length: 6627
+Content-Type: text/html; charset=UTF-8
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+  &amp;lt;title&amp;gt;MyPage&amp;lt;/title&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+
+  &amp;lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/javascript/jquery-3.5.1.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body class="wikiPage"&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+     &amp;lt;a class="navbar-brand" href="/FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+&amp;lt;ul class="nav navbar-nav"&amp;gt;
+        &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?edit" accesskey="e"&amp;gt;Edit&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+            &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?new"&amp;gt;Add&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+    &amp;lt;li id="tools" class="dropdown" aria-haspopup="true"&amp;gt;&amp;lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&amp;gt;Tools &amp;lt;b class="caret"&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/a&amp;gt;
+        &amp;lt;ul class="dropdown-menu"&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?properties" accesskey="p"&amp;gt;Properties&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?whereUsed" accesskey="w"&amp;gt;Where Used&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?versions" accesskey="v"&amp;gt;Versions&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=rename"&amp;gt;Rename&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=move"&amp;gt;Move&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=replace"&amp;gt;Replace&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?deletePage"&amp;gt;Delete&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li  class="divider"&amp;gt;&amp;lt;a href="/files" accesskey="f"&amp;gt;Files&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="?search" accesskey="s"&amp;gt;Search&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="/RecentChanges" accesskey=""&amp;gt;Recent Changes&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="MyPage?variables" accesskey="v"&amp;gt;Variables&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="/FitNesse.UserGuide" accesskey=""&amp;gt;User Guide&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;form class="navbar-form search" role="search" action="?search"&amp;gt;
+ &amp;lt;input type="hidden" name="responder" value="search" /&amp;gt;
+ &amp;lt;input type="hidden" name="searchScope" value="root" /&amp;gt;
+ &amp;lt;input type="text" id="searchString" name="searchString" class="form-control" placeholder="Search for page" /&amp;gt;
+ &amp;lt;input type="hidden" name="searchType" value="Search Titles" /&amp;gt;
+&amp;lt;/form&amp;gt;
+
+   &amp;lt;/div&amp;gt;
+&amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+ &amp;lt;li&amp;gt;MyPage&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;article&amp;gt;
+X
+
+
+&amp;lt;div id="-shortcut-keys" class="modal-dialog"&amp;gt;
+ &amp;lt;div&amp;gt;
+  &amp;lt;h4&amp;gt;Keyboard Shortcuts &amp;lt;kbd&amp;gt;?&amp;lt;/kbd&amp;gt;&amp;lt;/h4&amp;gt;
+  &amp;lt;div&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;General&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;t&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Test page or suite&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;e&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Edit page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;View page (after test)&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;a&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Add new page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Go To&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g u&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;User Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g q&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Quick Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g f&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Full Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g c&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Recent Changes&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Edit Mode&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;CTRL+s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Save page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;ESC&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Cancel edit&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Tools&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;p&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Properties&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;w&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Where used?&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Versions&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+h&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Page History&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;/&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Focus on search bar&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Open search page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;a href="javascript:history.back()" class="button"&amp;gt;Close&amp;lt;/a&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;script src="/files/fitnesse/javascript/mousetrap.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+
+&amp;lt;script type="text/javascript"&amp;gt;
+
+   Mousetrap.bind('v', function() { window.location.href ="MyPage"; });
+
+    Mousetrap.bind('e', function() { window.location.href ="MyPage?edit"; });
+    Mousetrap.bind('a', function() { window.location.href ="MyPage?new"; });
+    Mousetrap.bind('p', function() { window.location.href ="MyPage?properties"; });
+    Mousetrap.bind('w', function() { window.location.href ="MyPage?whereUsed"; });
+    Mousetrap.bind('s', function() { window.location.href ="MyPage?searchForm"; });
+    Mousetrap.bind('/', function() { 
+      document.getElementById('searchString').focus();
+      return false;  // stops the / character appearing in search box
+    });
+    Mousetrap.bind('g u', function() { window.location.href =".FitNesse.UserGuide"; });
+    Mousetrap.bind('g q', function() { window.open(".FitNesse.UserGuide.QuickReferenceGuide", "_blank"); });
+    Mousetrap.bind('g f', function() { window.open(".FitNesse.FullReferenceGuide", "_blank"); });
+    Mousetrap.bind('g c', function() { window.location.href ="RecentChanges"; });
+
+ Mousetrap.bind('?', function() { window.location.hash = "-shortcut-keys"; });
+
+&amp;lt;/script&amp;gt;  &amp;lt;/article&amp;gt;
+
+  &amp;lt;footer&amp;gt;
+  &amp;lt;/footer&amp;gt;
+
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;)</slimResult>
+        <expectation>
+          <status>ignore</status>
+          <instructionId>decisionTable_45_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <evaluationMessage>&lt;pre&gt;HTTP/1.1 200 OK
+Cache-Control: max-age=0
+Content-Length: 6627
+Content-Type: text/html; charset=UTF-8
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+  &amp;lt;title&amp;gt;MyPage&amp;lt;/title&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+
+  &amp;lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/javascript/jquery-3.5.1.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body class="wikiPage"&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+     &amp;lt;a class="navbar-brand" href="/FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+&amp;lt;ul class="nav navbar-nav"&amp;gt;
+        &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?edit" accesskey="e"&amp;gt;Edit&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+            &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?new"&amp;gt;Add&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+    &amp;lt;li id="tools" class="dropdown" aria-haspopup="true"&amp;gt;&amp;lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&amp;gt;Tools &amp;lt;b class="caret"&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/a&amp;gt;
+        &amp;lt;ul class="dropdown-menu"&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?properties" accesskey="p"&amp;gt;Properties&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?whereUsed" accesskey="w"&amp;gt;Where Used&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?versions" accesskey="v"&amp;gt;Versions&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=rename"&amp;gt;Rename&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=move"&amp;gt;Move&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?refactor&amp;amp;amp;type=replace"&amp;gt;Replace&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="MyPage?deletePage"&amp;gt;Delete&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li  class="divider"&amp;gt;&amp;lt;a href="/files" accesskey="f"&amp;gt;Files&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="?search" accesskey="s"&amp;gt;Search&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="/RecentChanges" accesskey=""&amp;gt;Recent Changes&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="MyPage?variables" accesskey="v"&amp;gt;Variables&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="/FitNesse.UserGuide" accesskey=""&amp;gt;User Guide&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;form class="navbar-form search" role="search" action="?search"&amp;gt;
+ &amp;lt;input type="hidden" name="responder" value="search" /&amp;gt;
+ &amp;lt;input type="hidden" name="searchScope" value="root" /&amp;gt;
+ &amp;lt;input type="text" id="searchString" name="searchString" class="form-control" placeholder="Search for page" /&amp;gt;
+ &amp;lt;input type="hidden" name="searchType" value="Search Titles" /&amp;gt;
+&amp;lt;/form&amp;gt;
+
+   &amp;lt;/div&amp;gt;
+&amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+ &amp;lt;li&amp;gt;MyPage&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;article&amp;gt;
+X
+
+
+&amp;lt;div id="-shortcut-keys" class="modal-dialog"&amp;gt;
+ &amp;lt;div&amp;gt;
+  &amp;lt;h4&amp;gt;Keyboard Shortcuts &amp;lt;kbd&amp;gt;?&amp;lt;/kbd&amp;gt;&amp;lt;/h4&amp;gt;
+  &amp;lt;div&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;General&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;t&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Test page or suite&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;e&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Edit page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;View page (after test)&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;a&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Add new page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Go To&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g u&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;User Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g q&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Quick Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g f&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Full Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g c&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Recent Changes&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Edit Mode&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;CTRL+s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Save page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;ESC&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Cancel edit&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Tools&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;p&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Properties&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;w&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Where used?&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Versions&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+h&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Page History&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;/&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Focus on search bar&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Open search page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;a href="javascript:history.back()" class="button"&amp;gt;Close&amp;lt;/a&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;script src="/files/fitnesse/javascript/mousetrap.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+
+&amp;lt;script type="text/javascript"&amp;gt;
+
+   Mousetrap.bind('v', function() { window.location.href ="MyPage"; });
+
+    Mousetrap.bind('e', function() { window.location.href ="MyPage?edit"; });
+    Mousetrap.bind('a', function() { window.location.href ="MyPage?new"; });
+    Mousetrap.bind('p', function() { window.location.href ="MyPage?properties"; });
+    Mousetrap.bind('w', function() { window.location.href ="MyPage?whereUsed"; });
+    Mousetrap.bind('s', function() { window.location.href ="MyPage?searchForm"; });
+    Mousetrap.bind('/', function() { 
+      document.getElementById('searchString').focus();
+      return false;  // stops the / character appearing in search box
+    });
+    Mousetrap.bind('g u', function() { window.location.href =".FitNesse.UserGuide"; });
+    Mousetrap.bind('g q', function() { window.open(".FitNesse.UserGuide.QuickReferenceGuide", "_blank"); });
+    Mousetrap.bind('g f', function() { window.open(".FitNesse.FullReferenceGuide", "_blank"); });
+    Mousetrap.bind('g c', function() { window.location.href ="RecentChanges"; });
+
+ Mousetrap.bind('?', function() { window.location.hash = "-shortcut-keys"; });
+
+&amp;lt;/script&amp;gt;  &amp;lt;/article&amp;gt;
+
+  &amp;lt;footer&amp;gt;
+  &amp;lt;/footer&amp;gt;
+
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_0', instruction='make', instanceName='decisionTable_46', className='TearDown', args=[]}</instruction>
+        <slimResult>pass(tear down)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>tear down</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>57</totalRunTimeInMillis>
+</testResults>
+

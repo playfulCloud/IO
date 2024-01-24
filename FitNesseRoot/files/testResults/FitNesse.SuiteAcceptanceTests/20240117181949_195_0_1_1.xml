@@ -1,0 +1,3630 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20231203</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests</rootPath>
+  <date>2024-01-17T18:19:49+01:00</date>
+  <pageHistoryLink>FitNesse.SuiteAcceptanceTests?pageHistory&amp;resultDate=20240117181949</pageHistoryLink>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.CopyAndAppendLastRow</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.CopyAndAppendLastRow?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>103</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>389</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.CopyAppendLastRowAndIncrementColumnValues</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.CopyAppendLastRowAndIncrementColumnValues?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>101</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>4</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.IncrementColumnsValues</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.IncrementColumnsValues?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>14</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>5</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.MaxTimeDivision</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.MaxTimeDivision?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>4</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.MultipleDivision</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.MultipleDivision?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>20</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>3</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.TimeRangeDivision</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.TimeRangeDivision?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>3</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.TimedMultipleDivision</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFitDecoratorTests.TimedMultipleDivision?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>21</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestArraysInColumnFixture</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestArraysInColumnFixture?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestMissingField</name>
+    <date>2024-01-17T18:19:50+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestMissingField?pageHistory&amp;resultDate=20240117181950</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>865</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestMissingMethod</name>
+    <date>2024-01-17T18:19:51+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestMissingMethod?pageHistory&amp;resultDate=20240117181951</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>510</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestSaveAndRecallSymbol</name>
+    <date>2024-01-17T18:19:52+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteColumnFixtureSpec.TestSaveAndRecallSymbol?pageHistory&amp;resultDate=20240117181952</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestBlankAndNullCells</name>
+    <date>2024-01-17T18:19:52+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestBlankAndNullCells?pageHistory&amp;resultDate=20240117181952</pageHistoryLink>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestCannotResolveGracefullyNamedFixture</name>
+    <date>2024-01-17T18:19:52+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestCannotResolveGracefullyNamedFixture?pageHistory&amp;resultDate=20240117181952</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>430</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestFixtureNotFound</name>
+    <date>2024-01-17T18:19:52+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestFixtureNotFound?pageHistory&amp;resultDate=20240117181952</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>468</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestFixtureNotFoundAfterTackingOnFixture</name>
+    <date>2024-01-17T18:19:52+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestFixtureNotFoundAfterTackingOnFixture?pageHistory&amp;resultDate=20240117181952</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>446</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNoDefaultConstructor</name>
+    <date>2024-01-17T18:19:53+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNoDefaultConstructor?pageHistory&amp;resultDate=20240117181953</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>173</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNotFixture</name>
+    <date>2024-01-17T18:19:53+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNotFixture?pageHistory&amp;resultDate=20240117181953</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>412</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestParsingOfObjects</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestParsingOfObjects?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>4</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestTackOnFixtureNotFixture</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestTackOnFixtureNotFixture?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>327</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteRowFixtureSpec.TestBasicRowFixture</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteRowFixtureSpec.TestBasicRowFixture?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingAbsoluteSymbolicLink</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingAbsoluteSymbolicLink?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>17</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingBackwardSymbolicLink</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingBackwardSymbolicLink?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>12</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingNestedBackSymbolicLink</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingNestedBackSymbolicLink?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>22</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingRelativeSymbolicLink</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingRelativeSymbolicLink?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>17</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingSubPageSymbolicLink</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestCreatingSubPageSymbolicLink?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>15</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestRemovingSymbolicLink</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestRemovingSymbolicLink?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>20</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestRenameSymbolicLink</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestRenameSymbolicLink?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>11</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>22</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestSymbolicLinkBehavior</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSymbolicLinkTests.TestSymbolicLinkBehavior?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>17</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestBreadCrumbs</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestBreadCrumbs?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>14</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>41</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestHeadersAndFooters</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestHeadersAndFooters?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>44</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationDefault</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationDefault?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>8</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithSuite</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithSuite?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>14</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>10</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithTest</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithTest?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>14</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>16</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.AlwaysSecureOperation</name>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.AlwaysSecureOperation?pageHistory&amp;resultDate=20240117181954</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>576</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.SecureReadOperations</name>
+    <date>2024-01-17T18:19:55+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.SecureReadOperations?pageHistory&amp;resultDate=20240117181955</pageHistoryLink>
+    <counts>
+      <right>34</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>483</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.SecureTestOperations</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.SecureTestOperations?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>145</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.SecureWriteOperations</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.SecureWriteOperations?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>88</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestInsecureReadPage</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestInsecureReadPage?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>86</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestReadChildOfSecurePage</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestReadChildOfSecurePage?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>80</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestSecureFilesAccess</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestSecureFilesAccess?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>54</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestSecureSuitePage</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestSecureSuitePage?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>87</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestSecureTestPage</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestSecureTestPage?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>96</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestEditExistingPage</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestEditExistingPage?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>50</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestEditNewPage</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestEditNewPage?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>46</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUnicodeCharacters</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUnicodeCharacters?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>55</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUserNameInProperties</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUserNameInProperties?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>49</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUserNameInRecentChanges</name>
+    <date>2024-01-17T18:19:56+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUserNameInRecentChanges?pageHistory&amp;resultDate=20240117181956</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>56</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUserNameInVersions</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUserNameInVersions?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>45</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUserNameSaved</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteEditResponderTests.TestUserNameSaved?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>73</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddChildToNonExistentPageTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddChildToNonExistentPageTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>53</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddDefaultWithNameOfSuiteTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddDefaultWithNameOfSuiteTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>36</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddDefaultWithNameOfTestTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddDefaultWithNameOfTestTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>43</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddInvalidChildNameTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddInvalidChildNameTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>48</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddNormalWithNameOfSuiteTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddNormalWithNameOfSuiteTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>42</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddNormalWithNameOfTestTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddNormalWithNameOfTestTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>48</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddSimpleChildPageTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddSimpleChildPageTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>62</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddSuitePageTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddSuitePageTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>53</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddTestPageTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.AddTestPageTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>51</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.CantAddChildWithNoNameTest</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.AddChildResponderSuite.CantAddChildWithNoNameTest?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>43</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.PartitionPreviewResponder.PartitionPreview</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.PartitionPreviewResponder.PartitionPreview?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>67</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.PartitionPreviewResponder.PartitionPreviewBasedOnFile</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.PartitionPreviewResponder.PartitionPreviewBasedOnFile?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>108</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.PartitionPreviewResponder.PartitionPreviewIncludesSuiteSetUp</name>
+    <date>2024-01-17T18:19:57+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.PartitionPreviewResponder.PartitionPreviewIncludesSuiteSetUp?pageHistory&amp;resultDate=20240117181957</pageHistoryLink>
+    <counts>
+      <right>15</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>117</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteFileSection.TestFileSectionOrder</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteFileSection.TestFileSectionOrder?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>26</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>164</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestCantMovePageBeneathSelf</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestCantMovePageBeneathSelf?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>5</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>123</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMoveIncludedPage</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMoveIncludedPage?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>81</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageInsideItself</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageInsideItself?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>56</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageThreeLevelsDown</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageThreeLevelsDown?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>4</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>123</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithAbsoluteInternalReference</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithAbsoluteInternalReference?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>86</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithExternalReference</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithExternalReference?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>6</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>107</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithManyLevelsOfSubPages</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithManyLevelsOfSubPages?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>4</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>80</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithRelativeInternalReference</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithRelativeInternalReference?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>75</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithSubPages</name>
+    <date>2024-01-17T18:19:58+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithSubPages?pageHistory&amp;resultDate=20240117181958</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>6</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>120</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithSymlinks</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMovePageWithSymlinks?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>16</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>64</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMoveToNonExistentPage</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestMoveToNonExistentPage?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>59</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestReferencesOfChildOfMovedPageAreRenamed</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestReferencesOfChildOfMovedPageAreRenamed?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>5</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>80</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestSimpleMove</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteMoveResponder.TestSimpleMove?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>4</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>64</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuitePropertiesResponder.TestPropertyCheckboxesArePresent</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuitePropertiesResponder.TestPropertyCheckboxesArePresent?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>21</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>73</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestProtectedWidgetsAreNotRenamed</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestProtectedWidgetsAreNotRenamed?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>53</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameChildPageWithAbsoluteReference</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameChildPageWithAbsoluteReference?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>41</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameChildPageWithSiblingReference</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameChildPageWithSiblingReference?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>9</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>61</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameDoesNotMove</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameDoesNotMove?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>57</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameMovesChildPages</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameMovesChildPages?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>51</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageThatRefersToItself</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageThatRefersToItself?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>57</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithAliasAbsoluteReference</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithAliasAbsoluteReference?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>49</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithAliasLinkReference</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithAliasLinkReference?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>43</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithAliasSubLinkReference</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithAliasSubLinkReference?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>41</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithBackwardsSearchReference</name>
+    <date>2024-01-17T18:19:59+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithBackwardsSearchReference?pageHistory&amp;resultDate=20240117181959</pageHistoryLink>
+    <counts>
+      <right>11</right>
+      <wrong>0</wrong>
+      <ignores>4</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>70</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithSiblingReference</name>
+    <date>2024-01-17T18:20:00+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithSiblingReference?pageHistory&amp;resultDate=20240117182000</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>53</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithSubpageReference</name>
+    <date>2024-01-17T18:20:00+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenamePageWithSubpageReference?pageHistory&amp;resultDate=20240117182000</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>49</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameSymbolicPage</name>
+    <date>2024-01-17T18:20:00+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRenameResponder.TestRenameSymbolicPage?pageHistory&amp;resultDate=20240117182000</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>36</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteReplaceResponder.TestReplaceContentsInPageHierarchy</name>
+    <date>2024-01-17T18:20:00+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteReplaceResponder.TestReplaceContentsInPageHierarchy?pageHistory&amp;resultDate=20240117182000</pageHistoryLink>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>95</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteReplaceResponder.TestReplacementWithPatternGroups</name>
+    <date>2024-01-17T18:20:00+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteReplaceResponder.TestReplacementWithPatternGroups?pageHistory&amp;resultDate=20240117182000</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>47</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteReplaceResponder.TestReplacesContent</name>
+    <date>2024-01-17T18:20:00+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteReplaceResponder.TestReplacesContent?pageHistory&amp;resultDate=20240117182000</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>44</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRunResponder.TestLinearClassPath</name>
+    <date>2024-01-17T18:20:00+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteRunResponder.TestLinearClassPath?pageHistory&amp;resultDate=20240117182000</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>531</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteSearchResponder.TestContentSearch</name>
+    <date>2024-01-17T18:20:00+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteSearchResponder.TestContentSearch?pageHistory&amp;resultDate=20240117182000</pageHistoryLink>
+    <counts>
+      <right>13</right>
+      <wrong>0</wrong>
+      <ignores>7</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>126</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteSearchResponder.TestSearchForm</name>
+    <date>2024-01-17T18:20:01+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteSearchResponder.TestSearchForm?pageHistory&amp;resultDate=20240117182001</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>38</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteSearchResponder.TestTitleSearch</name>
+    <date>2024-01-17T18:20:01+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteSearchResponder.TestTitleSearch?pageHistory&amp;resultDate=20240117182001</pageHistoryLink>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>7</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>113</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteExecutionStatusMessages.TestErrorOccurred</name>
+    <date>2024-01-17T18:20:01+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteExecutionStatusMessages.TestErrorOccurred?pageHistory&amp;resultDate=20240117182001</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>307</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteExecutionStatusMessages.TestExecutedOk</name>
+    <date>2024-01-17T18:20:01+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteExecutionStatusMessages.TestExecutedOk?pageHistory&amp;resultDate=20240117182001</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>436</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.DefinesFromSetupPagesShouldBeAvailableInTest</name>
+    <date>2024-01-17T18:20:01+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.DefinesFromSetupPagesShouldBeAvailableInTest?pageHistory&amp;resultDate=20240117182001</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>16</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.EmptySuiteSetUpAndTearDownShouldCountAsRightPages</name>
+    <date>2024-01-17T18:20:02+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.EmptySuiteSetUpAndTearDownShouldCountAsRightPages?pageHistory&amp;resultDate=20240117182002</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>644</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.SetUpAndTearDownShouldBeIncludedProperly</name>
+    <date>2024-01-17T18:20:02+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.SetUpAndTearDownShouldBeIncludedProperly?pageHistory&amp;resultDate=20240117182002</pageHistoryLink>
+    <counts>
+      <right>14</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>451</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestExecutionStatusBox</name>
+    <date>2024-01-17T18:20:03+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestExecutionStatusBox?pageHistory&amp;resultDate=20240117182003</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>436</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestFirstTest</name>
+    <date>2024-01-17T18:20:03+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestFirstTest?pageHistory&amp;resultDate=20240117182003</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>352</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestNotSuiteFilter</name>
+    <date>2024-01-17T18:20:03+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestNotSuiteFilter?pageHistory&amp;resultDate=20240117182003</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>455</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestOneSubPage</name>
+    <date>2024-01-17T18:20:04+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestOneSubPage?pageHistory&amp;resultDate=20240117182004</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>352</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestPrunedPageIsExcluded</name>
+    <date>2024-01-17T18:20:04+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestPrunedPageIsExcluded?pageHistory&amp;resultDate=20240117182004</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>453</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestRunTestsMatchingAllTags</name>
+    <date>2024-01-17T18:20:05+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestRunTestsMatchingAllTags?pageHistory&amp;resultDate=20240117182005</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>349</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestRunTestsMatchingAllTagsWithExclusion</name>
+    <date>2024-01-17T18:20:05+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestRunTestsMatchingAllTagsWithExclusion?pageHistory&amp;resultDate=20240117182005</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>353</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuiteFilter</name>
+    <date>2024-01-17T18:20:05+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuiteFilter?pageHistory&amp;resultDate=20240117182005</pageHistoryLink>
+    <counts>
+      <right>18</right>
+      <wrong>0</wrong>
+      <ignores>6</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>1226</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuitePartition</name>
+    <date>2024-01-17T18:20:07+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuitePartition?pageHistory&amp;resultDate=20240117182007</pageHistoryLink>
+    <counts>
+      <right>16</right>
+      <wrong>0</wrong>
+      <ignores>4</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>904</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuitePartitionBasedOnFile</name>
+    <date>2024-01-17T18:20:08+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuitePartitionBasedOnFile?pageHistory&amp;resultDate=20240117182008</pageHistoryLink>
+    <counts>
+      <right>11</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>469</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuiteWithAliasedXrefWidget</name>
+    <date>2024-01-17T18:20:08+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuiteWithAliasedXrefWidget?pageHistory&amp;resultDate=20240117182008</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>371</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuiteWithOneXrefWidget</name>
+    <date>2024-01-17T18:20:08+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuiteWithOneXrefWidget?pageHistory&amp;resultDate=20240117182008</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>373</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuiteWithSubWikiXrefWidget</name>
+    <date>2024-01-17T18:20:09+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestSuiteWithSubWikiXrefWidget?pageHistory&amp;resultDate=20240117182009</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>3</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>381</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestTwoSubPages</name>
+    <date>2024-01-17T18:20:09+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.SuiteResponder.TestTwoSubPages?pageHistory&amp;resultDate=20240117182009</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>450</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.TestPathIsIncluded</name>
+    <date>2024-01-17T18:20:10+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.TestPathIsIncluded?pageHistory&amp;resultDate=20240117182010</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>14</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.TestResponder</name>
+    <date>2024-01-17T18:20:10+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.TestResponder?pageHistory&amp;resultDate=20240117182010</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>513</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.TestStatusBox</name>
+    <date>2024-01-17T18:20:10+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteTestResponders.TestStatusBox?pageHistory&amp;resultDate=20240117182010</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>440</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteVersionResponder.TestUsenameInVersionList</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteVersionResponder.TestUsenameInVersionList?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>43</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteVersionResponder.TestVersionsInPage</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.SuiteVersionResponder.TestVersionsInPage?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>45</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestInstructionResponder</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestInstructionResponder?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>38</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestNameResponder</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestNameResponder?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>20</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>80</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestPacketResponder</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestPacketResponder?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>26</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestRssResponder</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestRssResponder?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>62</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestShutdown</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteResponderTests.TestShutdown?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>132</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>17</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>86</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.ComparatorsAreSupported</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.ComparatorsAreSupported?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>35</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.HowtoIgnoreResultValues</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.HowtoIgnoreResultValues?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>29</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.MakingTheBaselineTableTheDefaultDecisionTable</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.MakingTheBaselineTableTheDefaultDecisionTable?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>42</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.ScenariosAreSupported</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.ScenariosAreSupported?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>29</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.TestFailuresAreMarked</name>
+    <date>2024-01-17T18:20:11+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.BaseLineDecisionTable.TestFailuresAreMarked?pageHistory&amp;resultDate=20240117182011</pageHistoryLink>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>465</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ChainTest</name>
+    <date>2024-01-17T18:20:12+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ChainTest?pageHistory&amp;resultDate=20240117182012</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>35</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ChainWithInstanceTest</name>
+    <date>2024-01-17T18:20:12+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ChainWithInstanceTest?pageHistory&amp;resultDate=20240117182012</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>48</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.CustomTableRenderingAddedByPluginTest</name>
+    <date>2024-01-17T18:20:12+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.CustomTableRenderingAddedByPluginTest?pageHistory&amp;resultDate=20240117182012</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>573</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.DefineAliasInPluginTest</name>
+    <date>2024-01-17T18:20:12+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.DefineAliasInPluginTest?pageHistory&amp;resultDate=20240117182012</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>317</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.DefineAliasTest</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.DefineAliasTest?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>22</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>70</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.DefineTableTypeTest</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.DefineTableTypeTest?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.DisgracerTest</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.DisgracerTest?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>22</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>22</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ErikPragtBug</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ErikPragtBug?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>15</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.HashTableWithHtmlContent</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.HashTableWithHtmlContent?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>18</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.ShouldConvertHashWidgetToHashTable</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.ShouldConvertHashWidgetToHashTable?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>17</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.ShouldReturnHashTable</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HashTableTests.ShouldReturnHashTable?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>16</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>40</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>53</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.ImplementDynamicDecisionTableWithHybridTable</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.ImplementDynamicDecisionTableWithHybridTable?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>16</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.MethodExtractorRuleTest</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.MethodExtractorRuleTest?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>35</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>31</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.IgnoredTestsShouldColorGray</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.IgnoredTestsShouldColorGray?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>380</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.HowToAddFixturesWithParametersToTheLibrary</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.HowToAddFixturesWithParametersToTheLibrary?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>23</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LastLibraryPreceedsEarlierLibraryTest</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LastLibraryPreceedsEarlierLibraryTest?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LibraryInSetUpSuite.LibraryInSetUpAndPageTest</name>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LibraryInSetUpSuite.LibraryInSetUpAndPageTest?pageHistory&amp;resultDate=20240117182013</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>26</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LibraryInSetUpSuite.LibraryInSetUpTest</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.LibraryInSetUpSuite.LibraryInSetUpTest?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>25</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.OneLibraryTest</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.LibrarySuite.OneLibraryTest?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.MultiByteCharsInSlim</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.MultiByteCharsInSlim?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>25</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ParameterizedScenarios</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ParameterizedScenarios?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>15</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>27</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.QueryTableSuite.SetContextValue</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.QueryTableSuite.SetContextValue?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>2</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>26</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.QueryTableSuite.TestMatching</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.QueryTableSuite.TestMatching?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>27</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>39</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.RegularExpressionMatching</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.RegularExpressionMatching?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>19</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.BlankCellsInNestedScenariosShouldWork</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.BlankCellsInNestedScenariosShouldWork?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>18</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.BrotherScenarioLibraryIsIncluded</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.BrotherScenarioLibraryIsIncluded?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>22</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.NoScenarioSectionIfThereAreNone</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.NoScenarioSectionIfThereAreNone?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>27</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenarioLibrariesAreIncludedInTheCorrectOrder</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenarioLibrariesAreIncludedInTheCorrectOrder?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>44</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenarioLibrariesOnlyIncludedInTestPages</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenarioLibrariesOnlyIncludedInTestPages?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenarioLibrariesOrderTests.ScenarioLibraryOrderSuite.ScenarioLibraryOrderTestParent.ScenarioLibraryOrderIsCorrect</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenarioLibrariesOrderTests.ScenarioLibraryOrderSuite.ScenarioLibraryOrderTestParent.ScenarioLibraryOrderIsCorrect?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenarioLibraryShouldIncludeIncludedPages</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenarioLibraryShouldIncludeIncludedPages?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenariosOnlyInSlimTests</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ScenariosOnlyInSlimTests?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>34</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ShouldBeAbleToDealWithPlaceholderScenarios</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioLibraryTestSuite.ShouldBeAbleToDealWithPlaceholderScenarios?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>25</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.ScenarioWithOutputParametersInDecisionTables</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.ScenarioWithOutputParametersInDecisionTables?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>53</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.ScenarioWithOutputParametersInScripts</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.ScenarioWithOutputParametersInScripts?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>29</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.ScriptSubclassUsedForDecisionTable</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.ScriptSubclassUsedForDecisionTable?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>29</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.StopTestExceptionInDescisionTable</name>
+    <date>2024-01-17T18:20:14+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.StopTestExceptionInDescisionTable?pageHistory&amp;resultDate=20240117182014</pageHistoryLink>
+    <counts>
+      <right>10</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>445</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.UnknownOutputParameterInDescisionTable</name>
+    <date>2024-01-17T18:20:15+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.UnknownOutputParameterInDescisionTable?pageHistory&amp;resultDate=20240117182015</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>331</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.UsingConstructorArgumentsFromDecisionTablesInScenarios</name>
+    <date>2024-01-17T18:20:15+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.ScenarioTestSuite.UsingConstructorArgumentsFromDecisionTablesInScenarios?pageHistory&amp;resultDate=20240117182015</pageHistoryLink>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>31</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SegregationOfRequirementsAndImplementation</name>
+    <date>2024-01-17T18:20:15+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SegregationOfRequirementsAndImplementation?pageHistory&amp;resultDate=20240117182015</pageHistoryLink>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>38</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.NamingConvention</name>
+    <date>2024-01-17T18:20:15+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.NamingConvention?pageHistory&amp;resultDate=20240117182015</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>64</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolCanHoldInstanceUsedAsParameter</name>
+    <date>2024-01-17T18:20:15+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolCanHoldInstanceUsedAsParameter?pageHistory&amp;resultDate=20240117182015</pageHistoryLink>
+    <counts>
+      <right>8</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>26</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolManipulation</name>
+    <date>2024-01-17T18:20:15+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolManipulation?pageHistory&amp;resultDate=20240117182015</pageHistoryLink>
+    <counts>
+      <right>18</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>46</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolShouldShowRawContents</name>
+    <date>2024-01-17T18:20:15+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolShouldShowRawContents?pageHistory&amp;resultDate=20240117182015</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>371</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolsCanBeBlankOrNull</name>
+    <date>2024-01-17T18:20:15+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolsCanBeBlankOrNull?pageHistory&amp;resultDate=20240117182015</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>52</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolsCanBeExpressionsToEvaluate</name>
+    <date>2024-01-17T18:20:16+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolsCanBeExpressionsToEvaluate?pageHistory&amp;resultDate=20240117182016</pageHistoryLink>
+    <counts>
+      <right>30</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>1365</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolsWithSecretPrefixAreNotExpandedInHtml</name>
+    <date>2024-01-17T18:20:17+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.SlimSymbolsWithSecretPrefixAreNotExpandedInHtml?pageHistory&amp;resultDate=20240117182017</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>379</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.TestCanPassSymbolsIntoConstructors</name>
+    <date>2024-01-17T18:20:17+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.TestCanPassSymbolsIntoConstructors?pageHistory&amp;resultDate=20240117182017</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>46</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.TestSymbolsDontGetTurnedToStringsInTheOutput</name>
+    <date>2024-01-17T18:20:17+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SlimSymbols.TestSymbolsDontGetTurnedToStringsInTheOutput?pageHistory&amp;resultDate=20240117182017</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>34</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.StopSuite</name>
+    <date>2024-01-17T18:20:17+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.StopSuite?pageHistory&amp;resultDate=20240117182017</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>335</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.StopTest</name>
+    <date>2024-01-17T18:20:18+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.StopTest?pageHistory&amp;resultDate=20240117182018</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>343</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.StopTestInSuiteSetUp</name>
+    <date>2024-01-17T18:20:18+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.StopTestInSuiteSetUp?pageHistory&amp;resultDate=20240117182018</pageHistoryLink>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>401</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SystemExitIsPrevented</name>
+    <date>2024-01-17T18:20:18+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SystemExitIsPrevented?pageHistory&amp;resultDate=20240117182018</pageHistoryLink>
+    <counts>
+      <right>5</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>32</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SystemUnderTestTest</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.SystemUnderTestTest?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>20</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TableTableSuite.SymbolsInTableTable</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TableTableSuite.SymbolsInTableTable?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>13</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>32</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TableTableSuite.SymbolsInTableTableManagedByTheFixture</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TableTableSuite.SymbolsInTableTableManagedByTheFixture?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>15</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>30</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TableTableSuite.TestReturnsNull</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TableTableSuite.TestReturnsNull?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>1</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestChineseWords</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestChineseWords?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>21</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestComparators</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestComparators?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>26</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>26</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestCustomComparators</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestCustomComparators?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>436</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestCustomConverter</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestCustomConverter?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>13</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>24</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestDetailedDiff</name>
+    <date>2024-01-17T18:20:19+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestDetailedDiff?pageHistory&amp;resultDate=20240117182019</pageHistoryLink>
+    <counts>
+      <right>22</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>540</runTimeInMillis>
+  </pageHistoryReference>
+  <pageHistoryReference>
+    <name>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestExceptionCount</name>
+    <date>2024-01-17T18:20:20+01:00</date>
+    <pageHistoryLink>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.TestExceptionCount?pageHistory&amp;resultDate=20240117182020</pageHistoryLink>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>571</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp lib/*.jar:/var/home/me/Projects/PwrInżOpro/fitnesse-standalone.jar fit.FitServer toolbox 42441 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+</stdErr>
+  </executionLog>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -cp lib/*.jar:zork:abc xyz:trailingspace :/var/home/me/Projects/PwrInżOpro/fitnesse-standalone.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>143</exitCode>
+    <stdOut>WARNING: A terminally deprecated method in java.lang.System has been called
+WARNING: System::setSecurityManager has been called by fitnesse.slim.instructions.SystemExitSecurityManager (file:/var/home/me/Projects/PwrIn%c5%bcOpro/fitnesse-standalone.jar)
+WARNING: Please consider reporting this to the maintainers of fitnesse.slim.instructions.SystemExitSecurityManager
+WARNING: System::setSecurityManager will be removed in a future release
+Hash script is &lt;em&gt;&lt;b&gt;bold&lt;/b&gt;&lt;/em&gt;
+
+&lt;em&gt;&lt;b&gt;bold&lt;/b&gt;&lt;/em&gt;
+
+Hash name is bob
+
+Hash address is here
+
+这是中文
+
+</stdOut>
+    <stdErr>SLF4J: No SLF4J providers were found.
+
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:11 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:12 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:13 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:14 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:15 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:16 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:16 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:16 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:16 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:16 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:16 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:17 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:18 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:19 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerResponders
+INFO: Registered responders from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerWikiPageFactories
+INFO: Registered wiki page factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerTestSystemFactories
+INFO: Registered test system factories from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.LegacyPluginFeatureFactory registerSymbolTypes
+INFO: Registered Symbol types from: fitnesse.testsystems.slim.CustomScriptTableRenderingPlugin
+
+Jan 17, 2024 6:20:20 PM fitnesse.plugins.PropertyBasedPluginFeatureFactory$6 register
+INFO: Loaded custom comparator glob: fitnesse.testsystems.slim.GlobComparator
+
+</stdErr>
+    <exception>Could not send/receive data with SUT</exception>
+    <exception>fitnesse.testsystems.slim.SlimCommunicationException: Could not send/receive data with SUT</exception>
+  </executionLog>
+  <finalCounts>
+    <right>195</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>31683</totalRunTimeInMillis>
+</suiteResults>
+

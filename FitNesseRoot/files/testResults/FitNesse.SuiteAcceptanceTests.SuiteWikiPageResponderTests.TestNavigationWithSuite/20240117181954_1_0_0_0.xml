@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20231203</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.SuiteWikiPageResponderTests.TestNavigationWithSuite</rootPath>
+  <result>
+    <counts>
+      <right>14</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2024-01-17T18:19:54+01:00</date>
+    <runTimeInMillis>10</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SetUp"&gt;.FitNesse.SuiteAcceptanceTests.SetUp&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.fixtures&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SetUp&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3 id="0"&gt;If the Suite attribute is set to true, the Suite button should show up on top with a break between it and the other action buttons.&lt;/h3&gt;
+Create a suite page.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;Page creator.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Page name.&lt;/td&gt;
+		&lt;td&gt;Page contents.&lt;/td&gt;
+		&lt;td&gt;page attributes&lt;/td&gt;
+		&lt;td&gt;valid?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SomePage&lt;/td&gt;
+		&lt;td&gt;any page at all&lt;/td&gt;
+		&lt;td&gt;Suite=true&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Request the page&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;Response Requester.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;uri&lt;/td&gt;
+		&lt;td&gt;valid?&lt;/td&gt;
+		&lt;td&gt;contents?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SomePage&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;&lt;pre&gt;HTTP/1.1 200 OK
+Cache-Control: max-age=0
+Content-Length: 7068
+Content-Type: text/html; charset=UTF-8
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+  &amp;lt;title&amp;gt;SomePage&amp;lt;/title&amp;gt;
+    &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+
+  &amp;lt;link rel="shortcut icon" type="image/png" href="/files/fitnesse/images/favicon.png" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+  &amp;lt;link rel="stylesheet" type="text/css" href="/files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/javascript/jquery-3.5.1.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src="/files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+ &amp;lt;body class="wikiPage"&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+     &amp;lt;a class="navbar-brand" href="/FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+&amp;lt;ul class="nav navbar-nav"&amp;gt;
+        &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?suite" accesskey="t"&amp;gt;Suite&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?edit" accesskey="e"&amp;gt;Edit&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+            &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?new"&amp;gt;Add&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+    &amp;lt;li id="tools" class="dropdown" aria-haspopup="true"&amp;gt;&amp;lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&amp;gt;Tools &amp;lt;b class="caret"&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/a&amp;gt;
+        &amp;lt;ul class="dropdown-menu"&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?properties" accesskey="p"&amp;gt;Properties&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?whereUsed" accesskey="w"&amp;gt;Where Used&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?versions" accesskey="v"&amp;gt;Versions&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="SomePage?refactor&amp;amp;amp;type=rename"&amp;gt;Rename&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?refactor&amp;amp;amp;type=move"&amp;gt;Move&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?refactor&amp;amp;amp;type=replace"&amp;gt;Replace&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?deletePage"&amp;gt;Delete&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li  class="divider"&amp;gt;&amp;lt;a href="/files" accesskey="f"&amp;gt;Files&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="?search" accesskey="s"&amp;gt;Search&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="/RecentChanges" accesskey=""&amp;gt;Recent Changes&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="?testHistory"&amp;gt;Test History&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="SomePage?pageHistory" accesskey="h"&amp;gt;Page History&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li&amp;gt;&amp;lt;a href="?suite&amp;amp;amp;remote_debug"&amp;gt;Remote Debug&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="SomePage?variables" accesskey="v"&amp;gt;Variables&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+                &amp;lt;li class="divider"&amp;gt;&amp;lt;a href="/FitNesse.UserGuide" accesskey=""&amp;gt;User Guide&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+        &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+&amp;lt;form class="navbar-form search" role="search" action="?search"&amp;gt;
+ &amp;lt;input type="hidden" name="responder" value="search" /&amp;gt;
+ &amp;lt;input type="hidden" name="searchScope" value="root" /&amp;gt;
+ &amp;lt;input type="text" id="searchString" name="searchString" class="form-control" placeholder="Search for page" /&amp;gt;
+ &amp;lt;input type="hidden" name="searchType" value="Search Titles" /&amp;gt;
+&amp;lt;/form&amp;gt;
+
+   &amp;lt;/div&amp;gt;
+&amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+ &amp;lt;li&amp;gt;SomePage&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;article&amp;gt;
+any page at all
+
+
+&amp;lt;div id="-shortcut-keys" class="modal-dialog"&amp;gt;
+ &amp;lt;div&amp;gt;
+  &amp;lt;h4&amp;gt;Keyboard Shortcuts &amp;lt;kbd&amp;gt;?&amp;lt;/kbd&amp;gt;&amp;lt;/h4&amp;gt;
+  &amp;lt;div&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;General&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;t&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Test page or suite&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;e&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Edit page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;View page (after test)&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;a&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Add new page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Go To&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g u&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;User Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g q&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Quick Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g f&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Full Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g c&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Recent Changes&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Edit Mode&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;CTRL+s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Save page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;ESC&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Cancel edit&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Tools&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;p&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Properties&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;w&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Where used?&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Versions&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+h&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Page History&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;/&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Focus on search bar&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Open search page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;a href="javascript:history.back()" class="button"&amp;gt;Close&amp;lt;/a&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;script src="/files/fitnesse/javascript/mousetrap.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+
+&amp;lt;script type="text/javascript"&amp;gt;
+
+   Mousetrap.bind('v', function() { window.location.href ="SomePage"; });
+
+    Mousetrap.bind('t', function() { window.location.href ="SomePage?suite"; });
+    Mousetrap.bind('e', function() { window.location.href ="SomePage?edit"; });
+    Mousetrap.bind('a', function() { window.location.href ="SomePage?new"; });
+    Mousetrap.bind('p', function() { window.location.href ="SomePage?properties"; });
+    Mousetrap.bind('w', function() { window.location.href ="SomePage?whereUsed"; });
+    Mousetrap.bind('s', function() { window.location.href ="SomePage?searchForm"; });
+    Mousetrap.bind('/', function() { 
+      document.getElementById('searchString').focus();
+      return false;  // stops the / character appearing in search box
+    });
+    Mousetrap.bind('g u', function() { window.location.href =".FitNesse.UserGuide"; });
+    Mousetrap.bind('g q', function() { window.open(".FitNesse.UserGuide.QuickReferenceGuide", "_blank"); });
+    Mousetrap.bind('g f', function() { window.open(".FitNesse.FullReferenceGuide", "_blank"); });
+    Mousetrap.bind('g c', function() { window.location.href ="RecentChanges"; });
+
+ Mousetrap.bind('?', function() { window.location.hash = "-shortcut-keys"; });
+
+&amp;lt;/script&amp;gt;  &amp;lt;/article&amp;gt;
+
+  &amp;lt;footer&amp;gt;
+  &amp;lt;/footer&amp;gt;
+
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Examine the requested page to ensure the correct links are displayed in the correct order.&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;Response Examiner.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;line&lt;/td&gt;
+		&lt;td&gt;inOrder?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="SomePage?suite" accesskey="t"&amp;gt;Suite&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="SomePage?edit" accesskey="e"&amp;gt;Edit&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="SomePage?properties" accesskey="p"&amp;gt;Properties&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="SomePage?whereUsed" accesskey="w"&amp;gt;Where Used&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="SomePage?versions" accesskey="v"&amp;gt;Versions&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="/files" accesskey="f"&amp;gt;Files&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="?search" accesskey="s"&amp;gt;Search&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="/RecentChanges" accesskey=""&amp;gt;Recent Changes&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="?testHistory"&amp;gt;Test History&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="SomePage?pageHistory" accesskey="h"&amp;gt;Page History&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="?suite&amp;amp;amp;remote_debug"&amp;gt;Remote Debug&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&amp;lt;a href="/FitNesse.UserGuide" accesskey=""&amp;gt;User Guide&amp;lt;/a&amp;gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown"&gt;.FitNesse.SuiteAcceptanceTests.TearDown&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;hr/&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;tear down&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>TestNavigationWithSuite</relativePageName>
+  </result>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>10</totalRunTimeInMillis>
+</testResults>
+

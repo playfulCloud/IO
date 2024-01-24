@@ -1,0 +1,38 @@
+---
+Help: Help me please!
+---
+<test page>
+!|org.ptaszek.Controller.Application.ManageRecurrentPayment|
+|Operation|Form|BankResponse?|
+|10|2|5|
+|12.6|3|4.2|
+|100|4|33| 
+
+ public BankResponse manageRecurrentPayment(RecurrentPaymentOperation operation, RecurrentPaymentForm form) {
+        if (operation == RecurrentPaymentOperation.Update) {
+            if (validator.validate(form)){
+                throw new RuntimeException("Error during updating");
+            }
+            recurrentPayments.update(form.getId(), form.getRecurrentPayment());
+            return new BankResponse("Succesfull update",200);
+        }
+        else if (operation == RecurrentPaymentOperation.Delete) {
+            if (!validator.validate(form)){
+                throw new RuntimeException("Error during updating");
+            }
+            recurrentPayments.delete(form.getId());
+            return new BankResponse("Succesfull delete",200);
+        }
+        else if (operation == RecurrentPaymentOperation.Insert) {
+            if (validator.validate(form)){
+                throw new RuntimeException("Error during updating");
+            }
+            recurrentPayments.insert(form.getRecurrentPayment());
+            return new BankResponse("Succesfull Insert",200);
+        }
+        throw new UnsupportedOperationException();
+    }
+
+    public void setValidator(RecurrentPaymentValidator validator) {
+        this.validator = validator;
+    }

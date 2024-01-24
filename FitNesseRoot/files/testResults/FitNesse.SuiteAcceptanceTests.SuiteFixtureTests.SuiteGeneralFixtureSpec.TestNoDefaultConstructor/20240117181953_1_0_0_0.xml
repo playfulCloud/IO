@@ -1,0 +1,776 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20231203</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec.TestNoDefaultConstructor</rootPath>
+  <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2024-01-17T18:19:53+01:00</date>
+    <runTimeInMillis>173</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SetUp"&gt;.FitNesse.SuiteAcceptanceTests.SetUp&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.fixtures&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;SetUp&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3 id="0"&gt;When testing a table, if the first cell of the table refers to a fixture class without a default (no argument) constructor, then the following message should appear in that cell:&lt;/h3&gt;
+&lt;pre&gt;Class fixtureName has no default constructor.&lt;/pre&gt;&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;
+	&lt;li&gt;Here is a fitnesse page that should generate the error&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="note"&gt;The !path must point to fitnesse.jar&lt;/p&gt;
+&lt;p class="note"&gt;NoDefaultConstructorFixture is a real class, but is not a Fixture&lt;/p&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;Action fixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;Page builder&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;attributes&lt;/td&gt;
+		&lt;td&gt;Test=true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;line&lt;/td&gt;
+		&lt;td&gt;
+!path lib/*.jar
+&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;line&lt;/td&gt;
+		&lt;td&gt;|!-fit.testFxtr.NoDefaultConstructorFixture-!|&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;NotFixturePage&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;Response Requester&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;uri&lt;/td&gt;
+		&lt;td&gt;status?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;NotFixturePage?test&amp;amp;debug&lt;/td&gt;
+		&lt;td class="pass"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;ul&gt;
+	&lt;li&gt;The error message should show up in the response&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;Response examiner&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;type&lt;/td&gt;
+		&lt;td&gt;pattern&lt;/td&gt;
+		&lt;td&gt;matches?&lt;/td&gt;
+		&lt;td&gt;contents?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+		&lt;td&gt;Class fit.testFxtr.NoDefaultConstructorFixture has no default constructor.&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+X-FitNesse-Test-Id: 6
+Content-Type: text/html; charset=UTF-8
+
+9f
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+ &amp;lt;head&amp;gt;
+  &amp;lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&amp;gt;
+  &amp;lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&amp;gt;
+
+
+9
+  &amp;lt;title&amp;gt;
+1c
+Test Results: NotFixturePage
+9
+&amp;lt;/title&amp;gt;
+
+2
+  
+fa
+  &amp;lt;!--[if lt IE 9]&amp;gt;
+   &amp;lt;script&amp;gt;
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('footer');
+   &amp;lt;/script&amp;gt;
+  &amp;lt;![endif]--&amp;gt;
+
+
+33
+  &amp;lt;link rel="shortcut icon" type="image/png" href="
+1
+/
+26
+files/fitnesse/images/favicon.png" /&amp;gt;
+
+2f
+  &amp;lt;link rel="stylesheet" type="text/css" href="
+1
+/
+29
+files/fitnesse/css/fitnesse_wiki.css" /&amp;gt;
+
+2f
+  &amp;lt;link rel="stylesheet" type="text/css" href="
+1
+/
+2a
+files/fitnesse/css/fitnesse_pages.css" /&amp;gt;
+
+2f
+  &amp;lt;link rel="stylesheet" type="text/css" href="
+1
+/
+35
+files/fitnesse/wysiwyg/wysiwyg.css" media="screen"/&amp;gt;
+
+2f
+  &amp;lt;link rel="stylesheet" type="text/css" href="
+1
+/
+37
+files/fitnesse/bootstrap/css/fitnesse-bootstrap.css"&amp;gt;
+
+
+f
+  &amp;lt;script src="
+1
+/
+50
+files/fitnesse/javascript/jquery-3.5.1.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+f
+  &amp;lt;script src="
+1
+/
+49
+files/fitnesse/javascript/fitnesse.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+
+f
+  &amp;lt;script src="
+1
+/
+4b
+files/fitnesse/bootstrap/js/bootstrap.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+f
+  &amp;lt;script src="
+1
+/
+53
+files/fitnesse/bootstrap/js/respond.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+ &amp;lt;/head&amp;gt;
+
+6
+ &amp;lt;body
+8
+ class="
+8
+testPage
+1
+"
+c1
+&amp;gt;
+
+  &amp;lt;nav class="navbar-fixed-top " role="navigation"&amp;gt;
+   &amp;lt;div class="navbar navbar-default"&amp;gt;
+   &amp;lt;!-- Brand and toggle get grouped for better mobile display --&amp;gt;
+    &amp;lt;div class="navbar-header"&amp;gt;
+
+23
+     &amp;lt;a class="navbar-brand" href="
+1
+/
+31
+FrontPage"&amp;gt;&amp;lt;span&amp;gt;FitNesse&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+
+23
+&amp;lt;div id="menu-nav" class="hidden"&amp;gt;
+
+1c
+&amp;lt;ul class="nav navbar-nav"&amp;gt;
+
+15
+        &amp;lt;li&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+23
+?test" accesskey="t"&amp;gt;Test&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+15
+        &amp;lt;li&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+23
+?edit" accesskey="e"&amp;gt;Edit&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+1
+
+
+19
+            &amp;lt;li&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+13
+?new"&amp;gt;Add&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+1
+
+
+94
+    &amp;lt;li id="tools" class="dropdown" aria-haspopup="true"&amp;gt;&amp;lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&amp;gt;Tools &amp;lt;b class="caret"&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/a&amp;gt;
+
+23
+        &amp;lt;ul class="dropdown-menu"&amp;gt;
+
+13
+                &amp;lt;li
+a
+&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+2f
+?properties" accesskey="p"&amp;gt;Properties&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+13
+                &amp;lt;li
+a
+&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+2e
+?whereUsed" accesskey="w"&amp;gt;Where Used&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+13
+                &amp;lt;li
+a
+&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+2b
+?versions" accesskey="v"&amp;gt;Versions&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+13
+                &amp;lt;li
+10
+ class="divider"
+a
+&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+2b
+?refactor&amp;amp;amp;type=rename"&amp;gt;Rename&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+1d
+                &amp;lt;li&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+27
+?refactor&amp;amp;amp;type=move"&amp;gt;Move&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+1d
+                &amp;lt;li&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+2d
+?refactor&amp;amp;amp;type=replace"&amp;gt;Replace&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+1d
+                &amp;lt;li&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+1d
+?deletePage"&amp;gt;Delete&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+14
+                &amp;lt;li 
+10
+ class="divider"
+a
+&amp;gt;&amp;lt;a href="
+1
+/
+24
+files" accesskey="f"&amp;gt;Files&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+13
+                &amp;lt;li
+31
+&amp;gt;&amp;lt;a href="?search" accesskey="s"&amp;gt;Search&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+13
+                &amp;lt;li
+a
+&amp;gt;&amp;lt;a href="
+1
+/
+34
+RecentChanges" accesskey=""&amp;gt;Recent Changes&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+1
+
+
+13
+                &amp;lt;li
+10
+ class="divider"
+2e
+&amp;gt;&amp;lt;a href="?testHistory"&amp;gt;Test History&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+13
+                &amp;lt;li
+a
+&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+32
+?pageHistory" accesskey="h"&amp;gt;Page History&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+13
+                &amp;lt;li
+38
+&amp;gt;&amp;lt;a href="?test&amp;amp;amp;remote_debug"&amp;gt;Remote Debug&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+1
+
+
+13
+                &amp;lt;li
+10
+ class="divider"
+a
+&amp;gt;&amp;lt;a href="
+e
+NotFixturePage
+2d
+?variables" accesskey="v"&amp;gt;Variables&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+13
+                &amp;lt;li
+10
+ class="divider"
+a
+&amp;gt;&amp;lt;a href="
+1
+/
+35
+FitNesse.UserGuide" accesskey=""&amp;gt;User Guide&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+
+1e
+        &amp;lt;/ul&amp;gt;
+    &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+
+2d
+&amp;lt;/div&amp;gt;
+&amp;lt;script type="text/javascript"&amp;gt;//&amp;lt;!--
+
+1
+ 
+f
+$(function() {
+
+3
+   
+3
+$('
+5
+#menu
+53
+-nav').removeClass('hidden');
+ });
+//--&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;span id="test-action"&amp;gt;&amp;lt;/span&amp;gt;
+
+
+183
+&amp;lt;div id="error-nav" class="hidden navbar-right"&amp;gt;
+ &amp;lt;span class="title"&amp;gt;Failure Navigator&amp;lt;/span&amp;gt;
+ &amp;lt;div class="btn-group"&amp;gt;
+  &amp;lt;button id="error-nav-prev" class="btn btn-default"&amp;gt;&amp;amp;laquo;&amp;lt;/button&amp;gt;
+  &amp;lt;span class="btn-text"&amp;gt;&amp;lt;input id="error-nav-text" type="text" size="3"&amp;gt; of &amp;lt;span id="error-nav-max"&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;
+  &amp;lt;button id="error-nav-next" class="btn btn-default"&amp;gt;&amp;amp;raquo;&amp;lt;/button&amp;gt;
+ &amp;lt;/div&amp;gt;
+
+22
+ &amp;lt;a class="btn btn-default" href="
+20
+RerunLastFailures_NotFixturePage
+19
+?suite"&amp;gt;Rerun Failed&amp;lt;/a&amp;gt;
+
+7
+&amp;lt;/div&amp;gt;
+
+1
+
+
+a
+   &amp;lt;/div&amp;gt;
+
+ab
+&amp;lt;ol class="page-actions btn-group"&amp;gt;
+ &amp;lt;li class="expandall btn btn-xs"&amp;gt;Expand All&amp;lt;/li&amp;gt;
+ &amp;lt;li class="collapseall btn btn-xs"&amp;gt;Collapse All&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+&amp;lt;ol class="breadcrumb"&amp;gt;
+
+5
+ &amp;lt;li&amp;gt;
+9
+&amp;lt;a href="
+1
+/
+e
+NotFixturePage
+2
+"&amp;gt;
+e
+NotFixturePage
+4
+&amp;lt;/a&amp;gt;
+c
+&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+
+15
+  &amp;lt;/nav&amp;gt;
+
+  &amp;lt;header&amp;gt;
+
+19
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;article&amp;gt;
+
+4a
+&amp;lt;script type="text/javascript"&amp;gt;
+    window.onbeforeunload = function () {
+
+34
+        var stoptestDiv = document.querySelector("li
+5
+#test
+c2
+-action a.stop");
+
+        if (stoptestDiv){
+            return "There is a test or suite currently running.  Are you sure you want to navigate away from this page?";
+        }
+    }
+&amp;lt;/script&amp;gt;
+
+
+1
+
+
+1
+
+
+65
+&amp;lt;div id="test-summary"&amp;gt;&amp;lt;div id="progressBar"&amp;gt;Preparing Tests ...&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+
+&amp;lt;div id="test-action"&amp;gt;
+
+8
+&amp;lt;/div&amp;gt;
+
+
+1
+
+
+ac
+&amp;lt;script&amp;gt;document.getElementById("test-action").innerHTML = "&amp;lt;a href=\"#\" onclick=\"doSilentRequest('?responder=stoptest&amp;amp;id=6')\" class=\"stop\"&amp;gt;Stop Test&amp;lt;/a&amp;gt;\n";&amp;lt;/script&amp;gt;
+
+b3
+&amp;lt;script&amp;gt;document.getElementById("test-summary").innerHTML = "&amp;lt;div id=\"progressBar\" class=\"pass\" style=\"width:0.0%\"&amp;gt;Running&amp;amp;nbsp;tests&amp;amp;nbsp;...&amp;amp;nbsp;(1/1)&amp;lt;/div&amp;gt;\n";&amp;lt;/script&amp;gt;
+
+1f
+&amp;lt;div class="alternating_block"&amp;gt;
+107
+&amp;lt;br/&amp;gt;&amp;lt;span class="meta"&amp;gt;classpath: lib/*.jar&amp;lt;/span&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;table&amp;gt;
+	&amp;lt;tr&amp;gt;
+		&amp;lt;td class="error"&amp;gt;fit.testFxtr.NoDefaultConstructorFixture&amp;lt;hr/&amp;gt; &amp;lt;span class="fit_label"&amp;gt;Class fit.testFxtr.NoDefaultConstructorFixture has no default constructor.&amp;lt;/span&amp;gt;&amp;lt;/td&amp;gt;
+	&amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+
+7
+&amp;lt;/div&amp;gt;
+
+48
+&amp;lt;script&amp;gt;document.getElementById("test-action").innerHTML = "";&amp;lt;/script&amp;gt;
+
+82
+&amp;lt;script&amp;gt;document.getElementById("test-action").innerHTML = "&amp;lt;a href=\"?executionLog\" class=\"ok\"&amp;gt;Execution Log&amp;lt;/a&amp;gt;\n";&amp;lt;/script&amp;gt;
+
+26
+&amp;lt;script&amp;gt;initErrorMetadata();&amp;lt;/script&amp;gt;
+
+13f
+&amp;lt;script&amp;gt;document.getElementById("test-summary").innerHTML = "&amp;lt;strong&amp;gt;Test Pages:&amp;lt;/strong&amp;gt; 0 right, 0 wrong, 0 ignored, 0 exceptions&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;strong&amp;gt;Assertions:&amp;lt;/strong&amp;gt; 0 right, 0 wrong, 0 ignored, 1 exceptions (0.167 seconds)";document.getElementById("test-summary").className = "error";&amp;lt;/script&amp;gt;
+
+1
+
+
+1
+
+
+1
+
+
+6fb
+&amp;lt;div id="-shortcut-keys" class="modal-dialog"&amp;gt;
+ &amp;lt;div&amp;gt;
+  &amp;lt;h4&amp;gt;Keyboard Shortcuts &amp;lt;kbd&amp;gt;?&amp;lt;/kbd&amp;gt;&amp;lt;/h4&amp;gt;
+  &amp;lt;div&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;General&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;t&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Test page or suite&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;e&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Edit page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;View page (after test)&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;a&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Add new page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Go To&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g u&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;User Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g q&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Quick Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g f&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Full Reference Guide&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;g c&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Recent Changes&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;ul class="help-list"&amp;gt;
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Edit Mode&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;CTRL+s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Save page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;ESC&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Cancel edit&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+
+   &amp;lt;li&amp;gt;&amp;lt;h4&amp;gt;Tools&amp;lt;/h4&amp;gt;&amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;p&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Properties&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;w&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Where used?&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+v&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Versions&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;AK+h&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Page History&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;/&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Focus on search bar&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+   &amp;lt;li&amp;gt;
+    &amp;lt;kbd&amp;gt;s&amp;lt;/kbd&amp;gt;
+    &amp;lt;span class="help-key-def"&amp;gt;Open search page&amp;lt;/span&amp;gt;
+   &amp;lt;/li&amp;gt;
+  &amp;lt;/ul&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;a href="javascript:history.back()" class="button"&amp;gt;Close&amp;lt;/a&amp;gt;
+ &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+
+d
+&amp;lt;script src="
+1
+/
+6f
+files/fitnesse/javascript/mousetrap.min.js" type="text/javascript"&amp;gt;&amp;lt;/script&amp;gt;
+
+
+&amp;lt;script type="text/javascript"&amp;gt;
+
+1
+
+
+1
+ 
+3a
+  Mousetrap.bind('v', function() { window.location.href ="
+e
+NotFixturePage
+8
+"; });
+
+
+3c
+    Mousetrap.bind('t', function() { window.location.href ="
+e
+NotFixturePage
+c
+?test"; });
+
+3c
+    Mousetrap.bind('e', function() { window.location.href ="
+e
+NotFixturePage
+c
+?edit"; });
+
+3c
+    Mousetrap.bind('a', function() { window.location.href ="
+e
+NotFixturePage
+b
+?new"; });
+
+3c
+    Mousetrap.bind('p', function() { window.location.href ="
+e
+NotFixturePage
+12
+?properties"; });
+
+3c
+    Mousetrap.bind('w', function() { window.location.href ="
+e
+NotFixturePage
+11
+?whereUsed"; });
+
+3c
+    Mousetrap.bind('s', function() { window.location.href ="
+e
+NotFixturePage
+bd
+?searchForm"; });
+    Mousetrap.bind('/', function() { 
+      document.getElementById('searchString').focus();
+      return false;  // stops the / character appearing in search box
+    });
+
+179
+    Mousetrap.bind('g u', function() { window.location.href =".FitNesse.UserGuide"; });
+    Mousetrap.bind('g q', function() { window.open(".FitNesse.UserGuide.QuickReferenceGuide", "_blank"); });
+    Mousetrap.bind('g f', function() { window.open(".FitNesse.FullReferenceGuide", "_blank"); });
+    Mousetrap.bind('g c', function() { window.location.href ="RecentChanges"; });
+
+1
+
+
+50
+ Mousetrap.bind('?', function() { window.location.hash = "-shortcut-keys"; });
+
+
+9
+&amp;lt;/script&amp;gt;
+1
+	
+e
+  &amp;lt;/article&amp;gt;
+
+
+b
+  &amp;lt;footer&amp;gt;
+
+c
+  &amp;lt;/footer&amp;gt;
+
+1
+
+
+11
+ &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+0
+Exit-Code: 1
+
+&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown"&gt;.FitNesse.SuiteAcceptanceTests.TearDown&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;hr/&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;tear down&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>TestNoDefaultConstructor</relativePageName>
+  </result>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>173</totalRunTimeInMillis>
+</testResults>
+

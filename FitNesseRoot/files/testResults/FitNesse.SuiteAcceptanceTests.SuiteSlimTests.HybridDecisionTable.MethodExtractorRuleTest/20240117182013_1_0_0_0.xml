@@ -1,0 +1,3592 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20231203</FitNesseVersion>
+  <rootPath>FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.MethodExtractorRuleTest</rootPath>
+  <result>
+    <counts>
+      <right>35</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2024-01-17T18:20:13+01:00</date>
+    <runTimeInMillis>31</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.ScenarioLibrary"&gt;.FitNesse.SuiteAcceptanceTests.ScenarioLibrary&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;create page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td colspan="2"&gt;@content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$IT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="3"&gt;@page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td colspan="2"&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;nothing&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given test page&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td colspan="2"&gt;@page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;given slim test page&lt;/td&gt;
+		&lt;td colspan="2"&gt;page&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;!define TEST_SYSTEM {slim}&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;@page&lt;/td&gt;
+		&lt;td colspan="2"&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;&amp;lt;a href="@target"&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$IT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td colspan="3"&gt;@source&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should have link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and it should have link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should have creating link to&lt;/td&gt;
+		&lt;td&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@target&amp;lt;a title="create page" href="@target?edit&amp;amp;nonExistent=true"&amp;gt;[?]&amp;lt;/a&amp;gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should have creating link to&lt;/td&gt;
+		&lt;td colspan="2"&gt;target&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should have creating link to&lt;/td&gt;
+		&lt;td&gt;@target&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should match&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should not contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+		&lt;td&gt;in line&lt;/td&gt;
+		&lt;td&gt;symbol&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;$@symbol=&lt;/td&gt;
+		&lt;td&gt;line number containing&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;it should match&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should match&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for page in debug mode&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&amp;amp;debug&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test results for suite&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?suite&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;its test results should contain&lt;/td&gt;
+		&lt;td colspan="2"&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;test results for page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;should contain&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;test ressults for page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td colspan="3"&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should match&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and should not contain&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;reject&lt;/td&gt;
+		&lt;td&gt;content contains&lt;/td&gt;
+		&lt;td&gt;@text&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;widget&lt;/td&gt;
+		&lt;td&gt;wikiText&lt;/td&gt;
+		&lt;td&gt;should render&lt;/td&gt;
+		&lt;td&gt;htmlText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td&gt;create page&lt;/td&gt;
+		&lt;td&gt;WidgetPage&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td colspan="2"&gt;@wikiText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;WidgetPage&lt;/td&gt;
+		&lt;td colspan="2"&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;@htmlText&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;the line&lt;/td&gt;
+		&lt;td&gt;after&lt;/td&gt;
+		&lt;td&gt;should come after&lt;/td&gt;
+		&lt;td&gt;before&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;echo int&lt;/td&gt;
+		&lt;td&gt;$@before&lt;/td&gt;
+		&lt;td colspan="2"&gt;&amp;lt; $@after&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="3"&gt;pass&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;show Symbol&lt;/td&gt;
+		&lt;td&gt;result&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;then&lt;/td&gt;
+		&lt;td&gt;pass&lt;/td&gt;
+		&lt;td&gt;assertions pass,&lt;/td&gt;
+		&lt;td&gt;fail&lt;/td&gt;
+		&lt;td&gt;fail,&lt;/td&gt;
+		&lt;td&gt;ignore&lt;/td&gt;
+		&lt;td&gt;are ignored&lt;/td&gt;
+		&lt;td&gt;exception&lt;/td&gt;
+		&lt;td&gt;exceptions thrown&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="8"&gt;Assertions:&amp;lt;[^&amp;lt;]*@pass right, @fail wrong, @ignore ignored, @exception exceptions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;extract match;&lt;/td&gt;
+		&lt;td&gt;Assertions:&amp;lt;[^&amp;lt;]*exceptions&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+		&lt;td colspan="6"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and cell&lt;/td&gt;
+		&lt;td&gt;text&lt;/td&gt;
+		&lt;td&gt;has result&lt;/td&gt;
+		&lt;td&gt;result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;ensure&lt;/td&gt;
+		&lt;td&gt;content matches&lt;/td&gt;
+		&lt;td colspan="3"&gt;class="@result"&amp;gt;@text&amp;lt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td&gt;extract match;&lt;/td&gt;
+		&lt;td&gt;class="[^"]+"&amp;gt;@text&amp;lt;&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TestSTART=@@@START: Test specific content&lt;/span&gt;
+ &lt;br/&gt;&lt;span class="meta"&gt;variable defined: TestEND=@@@END: Test specific content&lt;/span&gt;
+ &lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and TestSystem setup is&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;$CONTENT
+@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and setup content is&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$CONTENT=&lt;/td&gt;
+		&lt;td&gt;echo&lt;/td&gt;
+		&lt;td&gt;$CONTENT
+@content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;and test content is&lt;/td&gt;
+		&lt;td colspan="2"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;given page&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td&gt;with content&lt;/td&gt;
+		&lt;td&gt;$CONTENT @@@START: Test specific content@content@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;make&lt;/td&gt;
+		&lt;td&gt;$IT&lt;/td&gt;
+		&lt;td colspan="2"&gt;a test page&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get HTML result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;Response Examiner.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;setType&lt;/td&gt;
+		&lt;td&gt;contents&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setPattern&lt;/td&gt;
+		&lt;td&gt;@@@START: Test specific content[^&amp;lt;]*(.*&amp;gt;)\s*@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;setGroup&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$HTML_Result=&lt;/td&gt;
+		&lt;td&gt;found&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get HTML input&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;Response Examiner.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;setType&lt;/td&gt;
+		&lt;td&gt;pageHtml&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setPattern&lt;/td&gt;
+		&lt;td&gt;@@@START: Test specific content[^&amp;lt;]*(.*&amp;gt;)\s*@@@END: Test specific content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;setGroup&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;$HTML_Input=&lt;/td&gt;
+		&lt;td&gt;found&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td&gt;get value&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;get collapsed executon log for page&lt;/td&gt;
+		&lt;td colspan="2"&gt;source&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?executionLog&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;is tested&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;request page&lt;/td&gt;
+		&lt;td&gt;@source?test&lt;/td&gt;
+		&lt;td&gt;200&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td colspan="3"&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;source&lt;/td&gt;
+		&lt;td&gt;is tested and HTML is extracted&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;when page&lt;/td&gt;
+		&lt;td&gt;@source&lt;/td&gt;
+		&lt;td colspan="2"&gt;is tested&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td colspan="4"&gt;get HTML result&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor3"&gt;
+		&lt;td colspan="4"&gt;get HTML input&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.SetUp"&gt;.FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.SetUp&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Library&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;echo fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Setup&lt;/p&gt;
+	&lt;div&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.testsystems.slim.tables&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Json Method Extractor Configuration                  _ _ _ _&lt;/td&gt;
+		&lt;td&gt;configuration, example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;Method Extractor&lt;/td&gt;
+		&lt;td&gt;@configuration&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR=&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;@exampleColumnName&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;$RR&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName=&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName=&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList=&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;$TestMethodExtractorConfiguration&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR=&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;@exampleColumnName&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;$RR&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName=&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName=&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList=&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h3 id="0"&gt;Build a JSON configuration string&lt;/h3&gt;
+&lt;br/&gt;&lt;h4 id="1"&gt;Hint: use this table to construct your Json expression.&lt;/h4&gt;
+ &lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Method Extractor&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td&gt;#&lt;/td&gt;
+		&lt;td&gt;Scope Pattern&lt;/td&gt;
+		&lt;td&gt;Target Name&lt;/td&gt;
+		&lt;td&gt;Parameter List&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;add;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Cell\s+(\w+):(\d+)\s*&lt;/td&gt;
+		&lt;td&gt;getRowColumn&lt;/td&gt;
+		&lt;td&gt;$2,$1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor5"&gt;
+		&lt;td colspan="4"&gt;# used a named group in the pattern&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;add;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*&lt;/td&gt;
+		&lt;td&gt;getRowColumn&lt;/td&gt;
+		&lt;td&gt;$row,$column&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="4"&gt;# used a fixed value as parameter&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;add;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Header\s+Column\s+(\w+)\s*&lt;/td&gt;
+		&lt;td&gt;getRowColumn&lt;/td&gt;
+		&lt;td&gt;0,$1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td colspan="4"&gt;# Function name in bold everything else is ignored&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;add;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*&lt;/td&gt;
+		&lt;td&gt;set $1&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td colspan="4"&gt;# Function in the first line followed by a description in the following lines&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;add;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;(?s)^([^\n]*)\n.*&lt;/td&gt;
+		&lt;td&gt;set $1&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td colspan="4"&gt;# Default (match all pattern) catches every column name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;add;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;.+&lt;/td&gt;
+		&lt;td&gt;set&lt;/td&gt;
+		&lt;td&gt;$0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td colspan="4"&gt;# The first matching rule is used. The below will never be used as it comes after the default rule&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;add;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;Last.*&lt;/td&gt;
+		&lt;td&gt;Unreachable&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;show collapsed&lt;/td&gt;
+		&lt;td colspan="3" class="ignore"&gt;to Json&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;show collapsed&lt;/td&gt;
+		&lt;td&gt;content&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="2"&gt;to Json&lt;/td&gt;
+	&lt;td&gt;{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+{
+"Scope":"Cell\\s+(\\w+):(\\d+)\\s*",
+"TargetName":"getRowColumn",
+"Parameters":"$2,$1"
+}
+, {
+"Scope":"Named\\s+Cell\\s+(?&amp;lt;column&amp;gt;\\w+):(?&amp;lt;row&amp;gt;\\d+)\\s*",
+"TargetName":"getRowColumn",
+"Parameters":"$row,$column"
+}
+, {
+"Scope":"Header\\s+Column\\s+(\\w+)\\s*",
+"TargetName":"getRowColumn",
+"Parameters":"0,$1"
+}
+, {
+"Scope":"(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*",
+"TargetName":"set $1",
+"Parameters":""
+}
+, {
+"Scope":"(?s)^([^\\n]*)\\n.*",
+"TargetName":"set $1",
+"Parameters":""
+}
+, {
+"Scope":".+",
+"TargetName":"set",
+"Parameters":"$0"
+}
+, {
+"Scope":"Last.*",
+"TargetName":"Unreachable",
+"Parameters":""
+}
+]
+}
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;$TestMethodExtractorConfiguration&amp;lt;-[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/td&gt;
+		&lt;td colspan="3"&gt;get fixture&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;h3 id="2"&gt;Test the above defined configuration&lt;/h3&gt;
+&lt;br/&gt;&lt;h4 id="3"&gt;Hint: use this table to test your own definitions.&lt;/h4&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="3"&gt;Test Object Method Extractor Configuration&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;example column name&lt;/td&gt;
+		&lt;td&gt;generated method name?&lt;/td&gt;
+		&lt;td&gt;parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;hallo&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;set&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;[hallo]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$TestMethodExtractorConfiguration-&amp;gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set:[hallo]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;hallo&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set:[hallo]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[hallo]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;Cell A:5&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;getRowColumn&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;[5, A]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$TestMethodExtractorConfiguration-&amp;gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[getRowColumn:[5, A]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;Cell A:5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[getRowColumn:[5, A]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[getRowColumn]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[getRowColumn]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[5, A]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;Named Cell BX:451&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;getRowColumn&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;[451, BX]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$TestMethodExtractorConfiguration-&amp;gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[getRowColumn:[451, BX]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;Named Cell BX:451&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[getRowColumn:[451, BX]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[getRowColumn]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[getRowColumn]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[451, BX]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;Header Column F&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;getRowColumn&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;[0, F]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$TestMethodExtractorConfiguration-&amp;gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[getRowColumn:[0, F]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;Header Column F&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[getRowColumn:[0, F]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[getRowColumn]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[getRowColumn]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[0, F]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;Cell 7&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;set&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;[Cell 7]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$TestMethodExtractorConfiguration-&amp;gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set:[Cell 7]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;Cell 7&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set:[Cell 7]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[Cell 7]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt; hello    
+ This is a Description
+ to explain the column purpose.
+ It will be ignored for the 
+ function identitication &lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;setHello&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;[]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$TestMethodExtractorConfiguration-&amp;gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set  hello    :[]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt; hello    
+ This is a Description
+ to explain the column purpose.
+ It will be ignored for the 
+ function identitication &lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set  hello    :[]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set  hello    ]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[setHello]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt; The bold word    
+  is &lt;b&gt; the key &lt;/b&gt; in this  
+ long text &lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;setTheKey&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;[]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$TestMethodExtractorConfiguration-&amp;gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set  the key :[]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt; The bold word    
+  is &lt;b&gt; the key &lt;/b&gt; in this  
+ long text &lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set  the key :[]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set  the key ]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[setTheKey]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;Last and Least&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;set&lt;/span&gt;&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;[Last and Least]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Object Method Extractor Configuration                  _ _ _&lt;/td&gt;
+		&lt;td&gt;example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$TestMethodExtractorConfiguration-&amp;gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&amp;lt;column&amp;gt;\w+):(?&amp;lt;row&amp;gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&amp;lt;b&amp;gt;(.*)&amp;lt;/b&amp;gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set:[Last and Least]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;Last and Least&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set:[Last and Least]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[Last and Least]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h3 id="4"&gt;Test a JSON configuration string&lt;/h3&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Test Json Method Extractor Configuration&lt;/td&gt;
+		&lt;td&gt;having&lt;/td&gt;
+		&lt;td&gt;configuration&lt;/td&gt;
+		&lt;td&gt;
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;example column name&lt;/td&gt;
+		&lt;td&gt;generated method name?&lt;/td&gt;
+		&lt;td colspan="2"&gt;parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;hallo&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;setHallo&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2" class="ignore"&gt;&lt;span class="pass"&gt;[]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Json Method Extractor Configuration                  _ _ _ _&lt;/td&gt;
+		&lt;td&gt;configuration, example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Method Extractor&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set hallo:[]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;hallo&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set hallo:[]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set hallo]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[setHallo]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;property abc&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;getProperty&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2" class="ignore"&gt;&lt;span class="pass"&gt;[abc]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Json Method Extractor Configuration                  _ _ _ _&lt;/td&gt;
+		&lt;td&gt;configuration, example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Method Extractor&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[get property:[abc]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;property abc&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[get property:[abc]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[get property]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[getProperty]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[abc]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;Element 5&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;get&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2" class="ignore"&gt;&lt;span class="pass"&gt;[5]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Json Method Extractor Configuration                  _ _ _ _&lt;/td&gt;
+		&lt;td&gt;configuration, example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Method Extractor&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[get:[5]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;Element 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[get:[5]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[get]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[get]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[5]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt; hello    
+ This is a Description
+ to explain the column purpose.
+ It will be ignored for the 
+ function identitication &lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;setHello&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2" class="ignore"&gt;&lt;span class="pass"&gt;[]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Json Method Extractor Configuration                  _ _ _ _&lt;/td&gt;
+		&lt;td&gt;configuration, example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Method Extractor&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set  hello    :[]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt; hello    
+ This is a Description
+ to explain the column purpose.
+ It will be ignored for the 
+ function identitication &lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set  hello    :[]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set  hello    ]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[setHello]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt; The bold word    
+  is &lt;b&gt; the key &lt;/b&gt; in this  
+ long text &lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;setTheKey&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2" class="ignore"&gt;&lt;span class="pass"&gt;[]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Json Method Extractor Configuration                  _ _ _ _&lt;/td&gt;
+		&lt;td&gt;configuration, example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Method Extractor&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set  the key :[]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt; The bold word    
+  is &lt;b&gt; the key &lt;/b&gt; in this  
+ long text &lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set  the key :[]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set  the key ]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[setTheKey]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="ignore"&gt;no match&lt;/td&gt;
+		&lt;td class="ignore"&gt;&lt;span class="pass"&gt;setNoMatch&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2" class="ignore"&gt;&lt;span class="pass"&gt;[]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;Test Json Method Extractor Configuration                  _ _ _ _&lt;/td&gt;
+		&lt;td&gt;configuration, example column name, generated method name?,parameter list?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Method Extractor&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;$RR&amp;lt;-[set no match:[]]&lt;/td&gt;
+		&lt;td&gt;findRule&lt;/td&gt;
+		&lt;td&gt;no match&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor8"&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;$RR-&amp;gt;[set no match:[]]&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[set no match]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getMethod Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;$generatedMethodName&amp;lt;-[setNoMatch]&lt;/td&gt;
+		&lt;td colspan="2"&gt;get Disgraced Method Name&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;$parameterList&amp;lt;-[[]]&lt;/td&gt;
+		&lt;td colspan="2"&gt;getParameters&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div class="collapsible closed teardown"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.TearDown"&gt;.FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.TearDown&lt;/a&gt; &lt;a href="FitNesse.SuiteAcceptanceTests.SuiteSlimTests.HybridDecisionTable.TearDown?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;Reset variables to get normal behaviour back.&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SLIM_DT_GETTER=&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: SLIM_DT_SETTER=&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>MethodExtractorRuleTest</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_39_0', instruction='import', path='fitnesse.fixtures'}</instruction>
+        <slimResult>pass(fitnesse.fixtures)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_39_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.fixtures</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='library_40_0', instruction='make', instanceName='library1', className='EchoFixture', args=[]}</instruction>
+        <slimResult>pass(echo fixture)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>library_40_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>echo fixture</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='import_41_0', instruction='import', path='fitnesse.testsystems.slim.tables'}</instruction>
+        <slimResult>pass(fitnesse.testsystems.slim.tables)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_41_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.testsystems.slim.tables</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_0', instruction='make', instanceName='scriptTableActor', className='MethodExtractor', args=[]}</instruction>
+        <slimResult>pass(Method Extractor)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_44_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Method Extractor</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_1', instruction='call', instanceName='scriptTableActor', methodName='add', args=[Cell\s+(\w+):(\d+)\s*, getRowColumn, $2,$1]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_44_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_2', instruction='call', instanceName='scriptTableActor', methodName='add', args=[Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*, getRowColumn, $row,$column]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_44_2</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_3', instruction='call', instanceName='scriptTableActor', methodName='add', args=[Header\s+Column\s+(\w+)\s*, getRowColumn, 0,$1]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_44_3</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_4', instruction='call', instanceName='scriptTableActor', methodName='add', args=[(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*, set $1, ]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_44_4</instructionId>
+          <col>0</col>
+          <row>8</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_5', instruction='call', instanceName='scriptTableActor', methodName='add', args=[(?s)^([^\n]*)\n.*, set $1, ]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_44_5</instructionId>
+          <col>0</col>
+          <row>10</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_6', instruction='call', instanceName='scriptTableActor', methodName='add', args=[.+, set, $0]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_44_6</instructionId>
+          <col>0</col>
+          <row>12</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_7', instruction='call', instanceName='scriptTableActor', methodName='add', args=[Last.*, Unreachable, ]}</instruction>
+        <slimResult>pass()</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>scriptTable_44_7</instructionId>
+          <col>0</col>
+          <row>14</row>
+          <type>ScriptActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_8/scriptTable_27_0', instruction='call', instanceName='scriptTableActor', methodName='toJson', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <instructionId>scriptTable_44_8/scriptTable_27_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ShowActionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='scriptTable_44_9', instruction='callAndAssign', symbolName='TestMethodExtractorConfiguration', instanceName='scriptTableActor', methodName='getFixture', args=[]}</instruction>
+        <slimResult>$TestMethodExtractorConfiguration&lt;-[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</slimResult>
+        <expectation>
+          <instructionId>scriptTable_44_9</instructionId>
+          <col>0</col>
+          <row>16</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration&lt;-[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_0/scriptTable_43_0', instruction='make', instanceName='scriptTableActor', className='$TestMethodExtractorConfiguration', args=[]}</instruction>
+        <slimResult>pass($TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_0/scriptTable_43_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_0/scriptTable_43_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[hallo]}</instruction>
+        <slimResult>$RR&lt;-[set:[hallo]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_0/scriptTable_43_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set:[hallo]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_0/scriptTable_43_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set:[hallo]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_0/scriptTable_43_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set:[hallo]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_0/scriptTable_43_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_0/scriptTable_43_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_0/scriptTable_43_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_0/scriptTable_43_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_0/scriptTable_43_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[hallo]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_0/scriptTable_43_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[hallo]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(set)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>set</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([hallo])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[hallo]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_1/scriptTable_43_0', instruction='make', instanceName='scriptTableActor', className='$TestMethodExtractorConfiguration', args=[]}</instruction>
+        <slimResult>pass($TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_1/scriptTable_43_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_1/scriptTable_43_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[Cell A:5]}</instruction>
+        <slimResult>$RR&lt;-[getRowColumn:[5, A]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_1/scriptTable_43_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[getRowColumn:[5, A]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_1/scriptTable_43_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[getRowColumn:[5, A]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_1/scriptTable_43_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[getRowColumn:[5, A]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_1/scriptTable_43_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[getRowColumn]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_1/scriptTable_43_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[getRowColumn]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_1/scriptTable_43_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[getRowColumn]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_1/scriptTable_43_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[getRowColumn]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_1/scriptTable_43_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[5, A]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_1/scriptTable_43_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[5, A]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(getRowColumn)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>getRowColumn</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([5, A])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[5, A]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_2/scriptTable_43_0', instruction='make', instanceName='scriptTableActor', className='$TestMethodExtractorConfiguration', args=[]}</instruction>
+        <slimResult>pass($TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_2/scriptTable_43_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_2/scriptTable_43_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[Named Cell BX:451]}</instruction>
+        <slimResult>$RR&lt;-[getRowColumn:[451, BX]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_2/scriptTable_43_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[getRowColumn:[451, BX]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_2/scriptTable_43_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[getRowColumn:[451, BX]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_2/scriptTable_43_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[getRowColumn:[451, BX]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_2/scriptTable_43_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[getRowColumn]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_2/scriptTable_43_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[getRowColumn]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_2/scriptTable_43_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[getRowColumn]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_2/scriptTable_43_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[getRowColumn]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_2/scriptTable_43_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[451, BX]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_2/scriptTable_43_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[451, BX]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(getRowColumn)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>getRowColumn</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([451, BX])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[451, BX]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_3/scriptTable_43_0', instruction='make', instanceName='scriptTableActor', className='$TestMethodExtractorConfiguration', args=[]}</instruction>
+        <slimResult>pass($TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_3/scriptTable_43_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_3/scriptTable_43_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[Header Column F]}</instruction>
+        <slimResult>$RR&lt;-[getRowColumn:[0, F]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_3/scriptTable_43_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[getRowColumn:[0, F]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_3/scriptTable_43_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[getRowColumn:[0, F]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_3/scriptTable_43_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[getRowColumn:[0, F]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_3/scriptTable_43_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[getRowColumn]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_3/scriptTable_43_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[getRowColumn]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_3/scriptTable_43_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[getRowColumn]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_3/scriptTable_43_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[getRowColumn]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_3/scriptTable_43_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[0, F]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_3/scriptTable_43_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[0, F]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(getRowColumn)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>getRowColumn</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([0, F])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[0, F]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_4/scriptTable_43_0', instruction='make', instanceName='scriptTableActor', className='$TestMethodExtractorConfiguration', args=[]}</instruction>
+        <slimResult>pass($TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_4/scriptTable_43_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_4/scriptTable_43_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[Cell 7]}</instruction>
+        <slimResult>$RR&lt;-[set:[Cell 7]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_4/scriptTable_43_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set:[Cell 7]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_4/scriptTable_43_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set:[Cell 7]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_4/scriptTable_43_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set:[Cell 7]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_4/scriptTable_43_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_4/scriptTable_43_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_4/scriptTable_43_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_4/scriptTable_43_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_4/scriptTable_43_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[Cell 7]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_4/scriptTable_43_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[Cell 7]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(set)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>set</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([Cell 7])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>6</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[Cell 7]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_5/scriptTable_43_0', instruction='make', instanceName='scriptTableActor', className='$TestMethodExtractorConfiguration', args=[]}</instruction>
+        <slimResult>pass($TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_5/scriptTable_43_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_5/scriptTable_43_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[ hello    
+ This is a Description
+ to explain the column purpose.
+ It will be ignored for the 
+ function identitication ]}</instruction>
+        <slimResult>$RR&lt;-[set  hello    :[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_5/scriptTable_43_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set  hello    :[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_5/scriptTable_43_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set  hello    :[]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_5/scriptTable_43_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set  hello    :[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_5/scriptTable_43_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set  hello    ]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_5/scriptTable_43_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set  hello    ]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_5/scriptTable_43_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[setHello]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_5/scriptTable_43_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[setHello]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_5/scriptTable_43_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_5/scriptTable_43_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(setHello)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>setHello</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>7</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_6/scriptTable_43_0', instruction='make', instanceName='scriptTableActor', className='$TestMethodExtractorConfiguration', args=[]}</instruction>
+        <slimResult>pass($TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_6/scriptTable_43_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_6/scriptTable_43_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[ The bold word    
+  is &lt;b&gt; the key &lt;/b&gt; in this  
+ long text ]}</instruction>
+        <slimResult>$RR&lt;-[set  the key :[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_6/scriptTable_43_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set  the key :[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_6/scriptTable_43_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set  the key :[]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_6/scriptTable_43_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set  the key :[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_6/scriptTable_43_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set  the key ]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_6/scriptTable_43_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set  the key ]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_6/scriptTable_43_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[setTheKey]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_6/scriptTable_43_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[setTheKey]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_6/scriptTable_43_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_6/scriptTable_43_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(setTheKey)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>8</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>setTheKey</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>8</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_7/scriptTable_43_0', instruction='make', instanceName='scriptTableActor', className='$TestMethodExtractorConfiguration', args=[]}</instruction>
+        <slimResult>pass($TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_7/scriptTable_43_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$TestMethodExtractorConfiguration-&gt;[ME:[Scope:Cell\s+(\w+):(\d+)\s*;TargetName:getRowColumn;Parameters:$2,$1Scope:Named\s+Cell\s+(?&lt;column&gt;\w+):(?&lt;row&gt;\d+)\s*;TargetName:getRowColumn;Parameters:$row,$columnScope:Header\s+Column\s+(\w+)\s*;TargetName:getRowColumn;Parameters:0,$1Scope:(?s).*&lt;b&gt;(.*)&lt;/b&gt;.*;TargetName:set $1;Parameters:Scope:(?s)^([^\n]*)\n.*;TargetName:set $1;Parameters:Scope:.+;TargetName:set;Parameters:$0Scope:Last.*;TargetName:Unreachable;Parameters:]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_7/scriptTable_43_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[Last and Least]}</instruction>
+        <slimResult>$RR&lt;-[set:[Last and Least]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_7/scriptTable_43_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set:[Last and Least]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_7/scriptTable_43_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set:[Last and Least]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_45_7/scriptTable_43_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set:[Last and Least]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_7/scriptTable_43_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_7/scriptTable_43_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_7/scriptTable_43_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_7/scriptTable_43_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_45_7/scriptTable_43_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[Last and Least]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_45_7/scriptTable_43_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[Last and Least]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(set)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>9</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>set</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([Last and Least])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>9</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[Last and Least]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_0/scriptTable_42_0', instruction='make', instanceName='scriptTableActor', className='MethodExtractor', args=[
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+]}</instruction>
+        <slimResult>pass(Method Extractor)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_0/scriptTable_42_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Method Extractor</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_0/scriptTable_42_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[hallo]}</instruction>
+        <slimResult>$RR&lt;-[set hallo:[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_0/scriptTable_42_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set hallo:[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_0/scriptTable_42_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set hallo:[]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_0/scriptTable_42_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set hallo:[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_0/scriptTable_42_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set hallo]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_0/scriptTable_42_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set hallo]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_0/scriptTable_42_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[setHallo]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_0/scriptTable_42_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[setHallo]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_0/scriptTable_42_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_0/scriptTable_42_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(setHallo)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>2</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>setHallo</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_1/scriptTable_42_0', instruction='make', instanceName='scriptTableActor', className='MethodExtractor', args=[
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+]}</instruction>
+        <slimResult>pass(Method Extractor)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_1/scriptTable_42_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Method Extractor</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_1/scriptTable_42_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[property abc]}</instruction>
+        <slimResult>$RR&lt;-[get property:[abc]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_1/scriptTable_42_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[get property:[abc]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_1/scriptTable_42_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[get property:[abc]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_1/scriptTable_42_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[get property:[abc]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_1/scriptTable_42_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[get property]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_1/scriptTable_42_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[get property]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_1/scriptTable_42_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[getProperty]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_1/scriptTable_42_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[getProperty]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_1/scriptTable_42_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[abc]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_1/scriptTable_42_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[abc]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(getProperty)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>getProperty</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([abc])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[abc]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_2/scriptTable_42_0', instruction='make', instanceName='scriptTableActor', className='MethodExtractor', args=[
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+]}</instruction>
+        <slimResult>pass(Method Extractor)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_2/scriptTable_42_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Method Extractor</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_2/scriptTable_42_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[Element 5]}</instruction>
+        <slimResult>$RR&lt;-[get:[5]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_2/scriptTable_42_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[get:[5]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_2/scriptTable_42_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[get:[5]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_2/scriptTable_42_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[get:[5]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_2/scriptTable_42_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[get]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_2/scriptTable_42_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[get]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_2/scriptTable_42_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[get]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_2/scriptTable_42_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[get]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_2/scriptTable_42_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[5]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_2/scriptTable_42_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[5]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(get)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>4</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>get</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([5])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[5]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_3/scriptTable_42_0', instruction='make', instanceName='scriptTableActor', className='MethodExtractor', args=[
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+]}</instruction>
+        <slimResult>pass(Method Extractor)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_3/scriptTable_42_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Method Extractor</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_3/scriptTable_42_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[ hello    
+ This is a Description
+ to explain the column purpose.
+ It will be ignored for the 
+ function identitication ]}</instruction>
+        <slimResult>$RR&lt;-[set  hello    :[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_3/scriptTable_42_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set  hello    :[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_3/scriptTable_42_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set  hello    :[]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_3/scriptTable_42_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set  hello    :[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_3/scriptTable_42_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set  hello    ]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_3/scriptTable_42_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set  hello    ]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_3/scriptTable_42_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[setHello]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_3/scriptTable_42_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[setHello]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_3/scriptTable_42_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_3/scriptTable_42_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(setHello)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>5</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>setHello</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_4/scriptTable_42_0', instruction='make', instanceName='scriptTableActor', className='MethodExtractor', args=[
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+]}</instruction>
+        <slimResult>pass(Method Extractor)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_4/scriptTable_42_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Method Extractor</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_4/scriptTable_42_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[ The bold word    
+  is &lt;b&gt; the key &lt;/b&gt; in this  
+ long text ]}</instruction>
+        <slimResult>$RR&lt;-[set  the key :[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_4/scriptTable_42_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set  the key :[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_4/scriptTable_42_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set  the key :[]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_4/scriptTable_42_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set  the key :[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_4/scriptTable_42_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set  the key ]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_4/scriptTable_42_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set  the key ]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_4/scriptTable_42_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[setTheKey]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_4/scriptTable_42_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[setTheKey]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_4/scriptTable_42_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_4/scriptTable_42_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(setTheKey)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>6</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>setTheKey</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>6</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_5/scriptTable_42_0', instruction='make', instanceName='scriptTableActor', className='MethodExtractor', args=[
+{
+"FormatVersion":"1.0",
+"MethodExtractorRules":[
+  {
+    "Scope":"char at (\\d)",
+    "TargetName":"char at",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"index of '(\\w)'",
+    "TargetName":"index of",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"Element\\s(\\d)",
+    "TargetName":"get",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"property\\s+(\\w*)\\s*",
+    "TargetName":"get property",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"has Value\\s+'(\\w*)'\\s*",
+    "TargetName":"contains Value",
+    "Parameters":"$1"
+  },
+  {
+    "Scope":"(?s).*&lt;[b]&gt;(.*)&lt;/b&gt;.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":"(?s)^([^\\n]*)\\n.*",
+    "TargetName":"set $1",
+    "Parameters":""
+  },
+  {
+    "Scope":".+",
+    "TargetName":"set $0",
+    "Parameters":""
+  }
+ ]
+}
+]}</instruction>
+        <slimResult>pass(Method Extractor)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_5/scriptTable_42_0</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>Method Extractor</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_5/scriptTable_42_1', instruction='callAndAssign', symbolName='RR', instanceName='scriptTableActor', methodName='findRule', args=[no match]}</instruction>
+        <slimResult>$RR&lt;-[set no match:[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_5/scriptTable_42_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$RR&lt;-[set no match:[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_5/scriptTable_42_2', instruction='make', instanceName='scriptTableActor', className='$RR', args=[]}</instruction>
+        <slimResult>pass($RR-&gt;[set no match:[]])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_46_5/scriptTable_42_2</instructionId>
+          <col>1</col>
+          <row>3</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>$RR-&gt;[set no match:[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_5/scriptTable_42_3', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[set no match]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_5/scriptTable_42_3</instructionId>
+          <col>0</col>
+          <row>4</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[set no match]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_5/scriptTable_42_4', instruction='callAndAssign', symbolName='generatedMethodName', instanceName='scriptTableActor', methodName='getDisgracedMethodName', args=[]}</instruction>
+        <slimResult>$generatedMethodName&lt;-[setNoMatch]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_5/scriptTable_42_4</instructionId>
+          <col>0</col>
+          <row>5</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$generatedMethodName&lt;-[setNoMatch]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_46_5/scriptTable_42_5', instruction='callAndAssign', symbolName='parameterList', instanceName='scriptTableActor', methodName='getParameters', args=[]}</instruction>
+        <slimResult>$parameterList&lt;-[[]]</slimResult>
+        <expectation>
+          <instructionId>decisionTable_46_5/scriptTable_42_5</instructionId>
+          <col>0</col>
+          <row>6</row>
+          <type>SymbolAssignmentExpectation</type>
+          <evaluationMessage>$parameterList&lt;-[[]]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass(setNoMatch)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>1</col>
+          <row>7</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>setNoMatch</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>Instruction{id='NOOP'}</instruction>
+        <slimResult>pass([])</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>NOOP</instructionId>
+          <col>2</col>
+          <row>7</row>
+          <type>ReturnedSymbolExpectation</type>
+          <evaluationMessage>[]</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>31</totalRunTimeInMillis>
+</testResults>
+

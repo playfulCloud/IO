@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20231203</FitNesseVersion>
+  <rootPath>FrontPage.TestManageRecurrentPayment</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2024-01-17T18:23:00+01:00</date>
+    <runTimeInMillis>199</runTimeInMillis>
+    <content>&lt;br/&gt;&amp;lt;test page&amp;gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3" class="error"&gt;org.ptaszek.Controller.Application.ManageRecurrentPayment&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: org.ptaszek.Controller.Application.ManageRecurrentPayment.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Operation&lt;/td&gt;
+		&lt;td&gt;Form&lt;/td&gt;
+		&lt;td&gt;BankResponse?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;12.6&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;4.2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;100&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;33&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt; public BankResponse&lt;a title="create page" href="FrontPage.BankResponse?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; manageRecurrentPayment(RecurrentPaymentOperation&lt;a title="create page" href="FrontPage.RecurrentPaymentOperation?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; operation, RecurrentPaymentForm&lt;a title="create page" href="FrontPage.RecurrentPaymentForm?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; form) {&lt;br/&gt;        if (operation == RecurrentPaymentOperation&lt;a title="create page" href="FrontPage.RecurrentPaymentOperation?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;.Update) {&lt;br/&gt;            if (validator.validate(form)){&lt;br/&gt;                throw new RuntimeException&lt;a title="create page" href="FrontPage.RuntimeException?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;("Error during updating");&lt;br/&gt;            }&lt;br/&gt;            recurrentPayments.update(form.getId(), form.getRecurrentPayment());&lt;br/&gt;            return new BankResponse&lt;a title="create page" href="FrontPage.BankResponse?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;("Succesfull update",200);&lt;br/&gt;        }&lt;br/&gt;        else if (operation == RecurrentPaymentOperation&lt;a title="create page" href="FrontPage.RecurrentPaymentOperation?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;.Delete) {&lt;br/&gt;            if (!validator.validate(form)){&lt;br/&gt;                throw new RuntimeException&lt;a title="create page" href="FrontPage.RuntimeException?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;("Error during updating");&lt;br/&gt;            }&lt;br/&gt;            recurrentPayments.delete(form.getId());&lt;br/&gt;            return new BankResponse&lt;a title="create page" href="FrontPage.BankResponse?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;("Succesfull delete",200);&lt;br/&gt;        }&lt;br/&gt;        else if (operation == RecurrentPaymentOperation&lt;a title="create page" href="FrontPage.RecurrentPaymentOperation?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;.Insert) {&lt;br/&gt;            if (validator.validate(form)){&lt;br/&gt;                throw new RuntimeException&lt;a title="create page" href="FrontPage.RuntimeException?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;("Error during updating");&lt;br/&gt;            }&lt;br/&gt;            recurrentPayments.insert(form.getRecurrentPayment());&lt;br/&gt;            return new BankResponse&lt;a title="create page" href="FrontPage.BankResponse?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;("Succesfull Insert",200);&lt;br/&gt;        }&lt;br/&gt;        throw new UnsupportedOperationException&lt;a title="create page" href="FrontPage.UnsupportedOperationException?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;();&lt;br/&gt;    }&lt;br/&gt;&lt;br/&gt;    public void setValidator(RecurrentPaymentValidator&lt;a title="create page" href="FrontPage.RecurrentPaymentValidator?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt; validator) {&lt;br/&gt;        this.validator = validator;&lt;br/&gt;    }&lt;br/&gt;</content>
+    <relativePageName>TestManageRecurrentPayment</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -cp /var/home/me/Projects/PwrInżOpro/fitnesse-standalone.jar fit.FitServer toolbox 43381 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>679</totalRunTimeInMillis>
+</testResults>
+

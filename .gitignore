@@ -3,3 +3,4 @@
 *.vpp.bak*
 target/
 *.zip
+testResults/

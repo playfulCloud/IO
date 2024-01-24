@@ -1,0 +1,13 @@
+---
+Help: dwa 22 dwa
+Test
+---
+<test page>
+
+Logowanie
+!|org.ptaszek.Controller.Fixture         |
+|login     |password            |login()?|
+|jan       |nowak               |400     |
+|jan6969       |kowalski            |400     |
+|Łukasz    |JESTEMTAKIMOOOOONDRY|400     |
+|InnyŁukasz|AleNadalMondry      |400     |

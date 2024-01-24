@@ -1,0 +1,17 @@
+---
+Help: sut
+Suite
+---
+!1 Test suite ${PAGE_NAME}
+!contents -R2 -g -p -f -h
+
+
+sut
+
+
+
+!define TEST_SYSTEM {slim}
+!path fitnesse-standalone.jars
+!path mondryptaszeknasosnie/target/classes
+!path mondryptaszeknasosnie/target/test-classes/
+

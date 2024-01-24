@@ -7,24 +7,17 @@
 !path mondryptaszeknasosnie/target/test-classes/
 
 
-!|import|
+!|import |
 |fixtures|
 
 
 Rejestracja
-!|org.ptaszek.Controller.Fixture|
-|name|surname|PESEL|IDNumber|mailAdress|birthDate|login|password|register()?|
-|jan|kowalsk|00000|11111111|jan@kow.l|2024-01-24|jan6969|kowalski|400|
-|jan|kowalsk|01234567890|0123456789|jan@kow.l|2024-01-24|jan6969|kowalski|200|
-|Łukasz|JESTEM_TAKI_MOOOOONDRY|01234567220|9979989990|lukasz@private.website|2021-01-20|lukasz10|taki_mondry|200|
-|InnyŁukasz|AleNadalMondry|xxxZlyPeselekxxx|9991112220|inny_lukasz@private.website|2021-01-20|lukasz10|taki_mondry|400|
-|Profesur|Tomczak|01234567890|9991112220|procesur@pwr.edu.pl|1999-01-20|lukasz10|a|400|
-|Richard|Dawkins|01234567890|9991112290|procesur@bio.logy|1899-01-15|biologiczny_login|mam_mocne_haslo|200|
+!|org.ptaszek.Controller.Fixture                                                                                                                   |
+|name      |surname               |PESEL           |IDNumber  |mailAdress                 |birthDate |login            |password       |register()?|
+|jan       |kowalsk               |00000           |11111111  |jan@kow.l                  |2024-01-24|jan6969          |kowalski       |400        |
+|jan       |kowalsk               |01234567890     |0123456789|jan@kow.l                  |2024-01-24|jan6969          |kowalski       |200        |
+|Łukasz    |JESTEM_TAKI_MOOOOONDRY|01234567220     |9979989990|lukasz@private.website     |2021-01-20|lukasz10         |taki_mondry    |200        |
+|InnyŁukasz|AleNadalMondry        |xxxZlyPeselekxxx|9991112220|inny_lukasz@private.website|2021-01-20|lukasz10         |taki_mondry    |400        |
+|Profesur  |Tomczak               |01234567890     |9991112220|procesur@pwr.edu.pl        |1999-01-20|lukasz10         |a              |400        |
+|Richard   |Dawkins               |01234567890     |9991112290|procesur@bio.logy          |1899-01-15|biologiczny_login|mam_mocne_haslo|200        |
 
-Logowanie
-!|org.ptaszek.Controller.Fixture|
-|login|password|login()?|
-|jan|nowak|400|
-|jan|kowalski|200|
-|Łukasz|JESTEMTAKIMOOOOONDRY|200|
-|InnyŁukasz|AleNadalMondry|200|

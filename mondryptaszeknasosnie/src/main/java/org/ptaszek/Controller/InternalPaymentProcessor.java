@@ -1,6 +1,10 @@
 package org.ptaszek.Controller;
 
-public class InternalPaymentProcessor extends PaymentProcessor {
+import org.ptaszek.Model.Payment;
+
+public class InternalPaymentProcessor implements PaymentProcessor {
+
+@Override
     public boolean addPayment(Payment payment) {
         return true;
     }

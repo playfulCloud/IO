@@ -1,5 +1,7 @@
 package org.ptaszek.Controller;
 
+import java.util.Date;
+
 import org.ptaszek.Model.*;
 
 public class Application {
@@ -32,27 +34,26 @@ public class Application {
         }
     }
 
-    public boolean addPayment(String title, String date, int amount, String senderId, String receiverId, String currency) {
-        if (paymentValidator.validate(title, date, amount, senderId, receiverId, currency)) {
+    public boolean addPayment(String title, String date, int amount, int senderId, int receiverId, String currency) {
+        if (PaymentValidator.validate(title, date, amount, senderId, receiverId, currency)) {
+
             var payment = new Payment();
             payment.title = title;
-            payment.date = new DateTime(date);
+            payment.date = new Date(date);
             payment.amount = amount;
-            payment.sender = new BankAccount();
-            payment.reciever = new BankAccount();
-            if (currency == 'PLN')
+            payment.sender = new InternalBankAccount();
+            payment.reciever = new InternalBankAccount();
+            if (currency == "PLN")
                 payment.currency = Currency.PLN;
-            else if (currency == 'USD')
+            else if (currency == "USD")
                 payment.currency = Currency.USD;
-            else if (currency == 'EUR')
+            else if (currency == "EUR")
                 payment.currency = Currency.EUR;
-                public String title;
 
             return ipp.addPayment(payment);
         } else {
             return false;
         }
-        |title|date|amount|sender|senderId|receiverId|currency|addPayment()?|
     }
 
     public BankResponse login(UserData obj) {

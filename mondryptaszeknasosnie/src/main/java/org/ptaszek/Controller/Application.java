@@ -15,6 +15,7 @@ public class Application {
     private DBManager<RegistrationData>registrationDataDBManager = new DBManager<>();
 
 
+    public static Application instance = new Application();
 
     public static void main(String[] args) {
         var app = new Application();

@@ -37,8 +37,17 @@ public class Fixture {
 		var ud = new UserData(data_login, data_password);
 		var rd = new RegistrationData(name, surname, PESEL, IDNumber, mailAdress, birthDate, ud);
 
-		var a = new Application();
-		var response = a.register(rd);
+		var response = Application.instance.register(rd);
+
+		return response.getCode();
+	}
+
+
+
+	public int login() {
+		var ud = new UserData(data_login, data_password);
+
+		var response = Application.instance.login(ud);
 
 		return response.getCode();
 	}

@@ -7,7 +7,8 @@ public class Payment {
     public Date date;
     public int amount;
     public Account sender;
-    Account reciever;
+    public Account reciever;
     public Currency currency;
+
 
 }

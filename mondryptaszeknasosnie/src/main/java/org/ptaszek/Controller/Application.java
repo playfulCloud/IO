@@ -32,6 +32,28 @@ public class Application {
         }
     }
 
+    public boolean addPayment(String title, String date, int amount, String senderId, String receiverId, String currency) {
+        if (paymentValidator.validate(title, date, amount, senderId, receiverId, currency)) {
+            var payment = new Payment();
+            payment.title = title;
+            payment.date = new DateTime(date);
+            payment.amount = amount;
+            payment.sender = new BankAccount();
+            payment.reciever = new BankAccount();
+            if (currency == 'PLN')
+                payment.currency = Currency.PLN;
+            else if (currency == 'USD')
+                payment.currency = Currency.USD;
+            else if (currency == 'EUR')
+                payment.currency = Currency.EUR;
+                public String title;
+
+            return ipp.addPayment(payment);
+        } else {
+            return false;
+        }
+        |title|date|amount|sender|senderId|receiverId|currency|addPayment()?|
+    }
 
     public BankResponse login(UserData obj) {
         if (userDataValidator.validate(obj)) {

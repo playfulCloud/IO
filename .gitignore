@@ -2,3 +2,4 @@
 *.vpp.lck
 *.vpp.bak*
 target/
+*.zip

@@ -27,7 +27,7 @@ public class Fixture {
 	public void setPESEL(String v) { PESEL = v; }
 	public void setIDNumber(String v) { IDNumber = v; }
 	public void setMailAdress(String v) { mailAdress = v; }
-	public void setBirthDate(String v) { try { birthDate = new SimpleDateFormat("yyyy-mm/dd").parse(v); } catch(Exception e){} } // .-.
+	public void setBirthDate(String v) { try { birthDate = new SimpleDateFormat("yyyy-mm-dd").parse(v); } catch(Exception e){} } // .-.
 
 
 	public void setLogin(String v) { data_login = v; }

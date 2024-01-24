@@ -1,0 +1,20 @@
+<test page>
+
+!define slim.port {6969}
+!define TEST_SYSTEM {slim}
+!path fitnesse-standalone.jars
+!path mondryptaszeknasosnie/target/classes
+!path mondryptaszeknasosnie/target/test-classes/
+
+
+!|import|
+|fixtures|
+
+
+Dodawanie przelewu
+!|org.ptaszek.Controller.Fixture|
+|title|date|amount|sender|senderId|receiverId|currency|addPayment()?|
+|Przelewik|2022-01-21|100|1|2|PLN|false|
+|Przelewik2|2022-01-21|0.1|1|2|PLN|true|
+|Przelewik3|2022-01-21|toNieKwota|1|2|EUR|false|
+|Przelewik4|2022-03-10|500|1|1|PLN|false|

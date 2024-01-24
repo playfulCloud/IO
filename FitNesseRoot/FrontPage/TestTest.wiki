@@ -2,7 +2,7 @@
 
 !define TEST_SYSTEM {slim}
 !path fitnesse-standalone.jars
-#!path mondryptaszeknasosnie/target/classes
+!path mondryptaszeknasosnie/target/classes
 !path mondryptaszeknasosnie/target/test-classes/
 
 

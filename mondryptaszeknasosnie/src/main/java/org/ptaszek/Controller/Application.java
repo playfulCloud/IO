@@ -37,7 +37,7 @@ public class Application {
         if (userDataValidator.validate(obj)) {
             return new BankResponse("Login Completed", 200);
         } else {
-            return new BankResponse("Login Completed", 200);
+            return new BankResponse("Login Completedn't", 400);
         }
     }
 

@@ -3,15 +3,14 @@
 !define TEST_SYSTEM {slim}
 !path fitnesse-standalone.jars
 !path mondryptaszeknasosnie/target/classes
-
+!path mondryptaszeknasosnie/target/test-classes/
 
 
 !|import|
 |fixtures|
-|org.ptaszek.Model.Application|
 
-!|DivisionFixture|
-|num|denom|quotient()|
-|1|2|0.5|
-|1|2|0.6|
-|4|2|2.0|
+!|org.ptaszek.Controller.Fixture|
+|a|a_add()?|
+|1|2|
+|1|2|
+|4|5|
